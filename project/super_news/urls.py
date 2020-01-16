@@ -13,10 +13,20 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from django.contrib import admin
-from django.urls import include, path
+from django.urls import path
+
+from django.conf import settings
+from django.conf.urls.static import static
+
+from polls.views import index, detail, blog_hendler
+
 
 urlpatterns = [
-    path('polls/', include('polls.urls')),
+    path('', index),
+    path('polls/<int:question_id>/', detail),
+    path('blog/', blog_hendler),
     path('admin/', admin.site.urls),
-]
+
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
