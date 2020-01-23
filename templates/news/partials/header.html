@@ -1,3 +1,5 @@
+{% load static %}
+
 <!-- header-start -->
 <header>
     <div class="header-area ">
@@ -6,8 +8,8 @@
                 <div class="row align-items-center no-gutters">
                     <div class="col-xl-2 col-lg-2">
                         <div class="logo-img">
-                            <a href="/index/">
-                                <img src="/static/img/logo.png" alt="">
+                            <a href="{% url 'homepage' %}">
+                                <img src="{% static 'img/logo.png' %}" alt="">
                             </a>
                         </div>
                     </div>
@@ -15,16 +17,18 @@
                         <div class="main-menu  d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a href="/index/">home</a></li>
-                                    <li><a class="active" href="#">blog <i class="ti-angle-down"></i></a>
+                                    <li><a href="{% url 'homepage' %}">home</a></li>
+                                    <li><a class="active" href="{% url 'blog' %}">
+                                        Blog <i class="ti-angle-down"></i></a>
                                         <ul class="submenu">
-                                            <li><a href="/blog/">blog</a></li>
-                                            <li><a href="/page/">single-blog</a></li>
+                                            {% for cat in menu_categories %}
+                                            <li><a href="{% url 'category' cat.slug %}">{{ cat.name }}</a></li>
+                                            {% endfor %}
                                         </ul>
                                     </li>
-                                    <li><a href="/about/">About</a></li>
-                                    <li><a href="/search/">Search</a></li>
-                                    <li><a href="/contact/">Contact</a></li>
+                                    <li><a href="{% url 'about' %}">About</a></li>
+                                    <li><a href="{% url 'search' %}">Search</a></li>
+                                    <li><a href="{% url 'contact' %}">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>

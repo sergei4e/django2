@@ -25,12 +25,14 @@ from news import views
 
 
 urlpatterns = [
-    path('', views.index_handler),
-    path('blog/', views.blog_handler),
-    path('page/', views.page_handler),
-    path('about/', views.about_handler),
-    path('contact/', views.contact_handler),
-    path('search/', views.search_handler),
+    path('', views.index_handler, name='homepage'),
+    path('blog/', views.blog_handler, name='blog'),
+    path('<cat_slug>', views.blog_handler, name='category'),
+    path('post/<post_slug>', views.page_handler, name='article'),
+
+    path('about/', views.about_handler, name='about'),
+    path('contact/', views.contact_handler, name='contact'),
+    path('search/', views.search_handler, name='search'),
 
     path('robots.txt', views.robots_handler),
 
