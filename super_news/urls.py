@@ -27,7 +27,7 @@ from news import views
 urlpatterns = [
     path('', views.index_handler, name='homepage'),
     path('blog/', views.blog_handler, name='blog'),
-    path('<cat_slug>', views.blog_handler, name='category'),
+    path('category/<cat_slug>', views.blog_handler, name='category'),
     path('post/<post_slug>', views.page_handler, name='article'),
 
     path('about/', views.about_handler, name='about'),
@@ -43,5 +43,5 @@ urlpatterns = [
 
 
 if settings.DEBUG:
-    urlpatterns += [path('__debug__/', include(debug_toolbar.urls))]
+    urlpatterns = [path('__debug__/', include(debug_toolbar.urls))] + urlpatterns
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
