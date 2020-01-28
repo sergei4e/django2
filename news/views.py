@@ -15,18 +15,28 @@ def index_handler(request):
 
 def blog_handler(request, **kwargs):
     cat_slug = kwargs.get('cat_slug')
+    page = int(kwargs.get('number', 1))
+    count = 2
     if cat_slug:
         category = Category.objects.get(slug=cat_slug)
         last_articles = Article.objects.filter(
             categories__slug=cat_slug).order_by(
-            '-pub_date')[:10].prefetch_related('categories')
+            '-pub_date')[(page-1)*count:page*count].prefetch_related('categories')
+        art_count = Article.objects.filter(
+            categories__slug=cat_slug).count()
+        max_page = (art_count // count) + 1
     else:
+        art_count = Article.objects.all().count()
+        max_page = (art_count // count) + 1
         last_articles = Article.objects.all().order_by(
-            '-pub_date')[:10].prefetch_related('categories')
+            '-pub_date')[(page-1)*count:page*count].prefetch_related('categories')
         category = None
     context = {
         'last_articles': last_articles,
-        'category': category
+        'category': category,
+        'pages': range(2, max_page+1),
+        'corrent_page': page,
+        'max_page': max_page
     }
     return render(request, 'news/blog.html', context)
 
