@@ -1,7 +1,10 @@
 from django.shortcuts import render
+from django.contrib import messages
+from django.core.paginator import Paginator
 from django.core.exceptions import ObjectDoesNotExist
 
-from .models import Article, Category
+from .models import Article, Category, Comment
+from .forms import CommentForm
 
 
 def index_handler(request):
@@ -15,34 +18,32 @@ def index_handler(request):
 
 def blog_handler(request, **kwargs):
     cat_slug = kwargs.get('cat_slug')
-    page = int(kwargs.get('number', 1))
-    count = 2
+    curent_page = int(request.GET.get('page', 1))
+    articles_on_page = 2
     if cat_slug:
         category = Category.objects.get(slug=cat_slug)
         last_articles = Article.objects.filter(
             categories__slug=cat_slug).order_by(
-            '-pub_date')[(page-1)*count:page*count].prefetch_related('categories')
-        art_count = Article.objects.filter(
-            categories__slug=cat_slug).count()
-        max_page = (art_count // count) + 1
+            '-pub_date').prefetch_related('categories')
+        paginator = Paginator(last_articles, articles_on_page)
+        page_obj = paginator.get_page(curent_page)
     else:
-        art_count = Article.objects.all().count()
-        max_page = (art_count // count) + 1
         last_articles = Article.objects.all().order_by(
-            '-pub_date')[(page-1)*count:page*count].prefetch_related('categories')
+            '-pub_date').prefetch_related('categories')
         category = None
+        paginator = Paginator(last_articles, articles_on_page)
+        page_obj = paginator.get_page(curent_page)
     context = {
-        'last_articles': last_articles,
         'category': category,
-        'pages': range(2, max_page+1),
-        'corrent_page': page,
-        'max_page': max_page
+        'page_obj': page_obj,
+        'paginator': paginator
     }
     return render(request, 'news/blog.html', context)
 
 
 def page_handler(request, post_slug):
     main_article = Article.objects.get(slug=post_slug)
+
     try:
         prev_article = Article.objects.get(id=main_article.id-1)
     except ObjectDoesNotExist:
@@ -51,11 +52,28 @@ def page_handler(request, post_slug):
         next_article = Article.objects.get(id=main_article.id+1)
     except ObjectDoesNotExist:
         next_article = None
+
     context = {
         'article': main_article,
         'prev_article': prev_article,
         'next_article': next_article
     }
+
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            data = form.cleaned_data
+            data['article'] = main_article
+            Comment.objects.create(**data)
+            form = CommentForm()
+        else:
+            messages.add_message(
+                request, messages.INFO, 'Error in FORM fields')
+    else:
+        form = CommentForm()
+
+    context['form'] = form
+
     return render(request, 'news/page.html', context)
 
 
