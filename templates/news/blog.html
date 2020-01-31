@@ -5,8 +5,8 @@
 
 <!-- bradcam_area_start -->
 <div class="bradcam_area breadcam_bg overlay2">
-    {% if category %}
-    <h3>{{ category.name|title }} News</h3>
+    {% if object %}
+    <h3>{{ object.name|title }} News</h3>
     {% else %}
     <h3>HOT News</h3>
     {% endif %}
@@ -40,8 +40,8 @@
                             <ul class="blog-info-link">
 
                                 <li><i class="fa fa-user"></i>
-                                    <a href="{% url 'category' article.categories.first.slug %}">
-                                        {{article.categories.first.name|title}}</a>
+                                    <a href="{% url 'category' article.categories.all.0.slug %}">
+                                        {{article.categories.all.0.name|title}}</a>
                                 </li>
 
                                 <li><a href="#"><i class="fa fa-comments"></i>03 Comments</a></li>

@@ -96,26 +96,28 @@
                   </div>
                </div>
             </div>
+            {% if comments %}
             <div class="comments-area" id="comments">
-               <h4>{{ article.comments.all.count }} Comments</h4>
-               {% for comment in article.comments.all %}
-               <div class="comment-list">
-                  <div class="single-comment justify-content-between d-flex">
-                     <div class="user justify-content-between d-flex">
-                        <div class="desc">
-                           <p class="comment">{{ comment.comment }}</p>
-                           <div class="d-flex justify-content-between">
-                              <div class="d-flex align-items-center">
-                                 <h5>{{comment.name}}</h5>
-                                 <p class="date">{{comment.pub_date}}</p>
+               <h4>{{ comments.count }} Comments</h4>
+               {% for comment in comments %}
+                  <div class="comment-list">
+                     <div class="single-comment justify-content-between d-flex">
+                        <div class="user justify-content-between d-flex">
+                           <div class="desc">
+                              <p class="comment">{{ comment.comment }}</p>
+                              <div class="d-flex justify-content-between">
+                                 <div class="d-flex align-items-center">
+                                    <h5>{{comment.name}}</h5>
+                                    <p class="date">{{comment.pub_date}}</p>
+                                 </div>
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
-               </div>
                {% endfor %}
             </div>
+            {% endif %}
             <div class="comment-form">
                <h4>Leave a Reply</h4>
                {% if form.non_field_errors %}

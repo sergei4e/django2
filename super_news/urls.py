@@ -25,18 +25,18 @@ from news import views
 
 
 urlpatterns = [
-    path('', views.index_handler, name='homepage'),
+    path('', views.IndexView.as_view(), name='homepage'),
 
-    path('blog/', views.blog_handler, name='blog'),
-    path('category/<cat_slug>', views.blog_handler, name='category'),
+    path('blog/', views.BlogListView.as_view(), name='blog'),
+    path('category/<cat_slug>', views.CategoryListView.as_view(), name='category'),
 
-    path('post/<post_slug>', views.page_handler, name='article'),
+    path('post/<post_slug>', views.PageDetailView.as_view(), name='article'),
 
-    path('about/', views.about_handler, name='about'),
-    path('contact/', views.contact_handler, name='contact'),
-    path('search/', views.search_handler, name='search'),
+    path('about/', views.AboutView.as_view(), name='about'),
+    path('contact/', views.ContactView.as_view(), name='contact'),
+    path('search/', views.SearchView.as_view(), name='search'),
 
-    path('robots.txt', views.robots_handler),
+    path('robots.txt', views.RobotsView.as_view()),
 
     path('summernote/', include('django_summernote.urls')),
     path('admin/', admin.site.urls),
