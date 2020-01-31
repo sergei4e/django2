@@ -9,7 +9,7 @@ Django==3.0.2
 django-debug-toolbar==2.1
 django-grappelli==2.13.3
 django-nested-inline==0.4.2
-django-suit==2.0a1
+django-suit
 django-summernote==0.8.11.6
 fake-useragent==0.1.11
 idna==2.8

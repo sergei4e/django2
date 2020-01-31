@@ -10,11 +10,15 @@ from concurrent.futures import ThreadPoolExecutor
 from news.models import Article, Author, Category
 
 
-# BBC Author in db has id=3
-author = Author.objects.get(id=3)
+AUTHOR = None
 
 
 def crawl_one(url):
+    global AUTHOR
+
+    if not AUTHOR:
+        # BBC Author in db has id=3
+        AUTHOR = Author.objects.get(id=3)
 
     try:
 
@@ -66,7 +70,7 @@ def crawl_one(url):
             'short_description': short_description.strip(),
             'main_image': img_path,
             'pub_date': make_aware(pub_date),
-            'author': author
+            'author': AUTHOR
         }
 
         # article = Article(**article)
