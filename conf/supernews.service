@@ -1,0 +1,17 @@
+[Unit]
+Description=Python Blog
+
+[Service]
+PIDFile=/run/blog/pid
+User=root
+Group=root
+WorkingDirectory=/root/web_app
+ExecStart=/usr/bin/python3 web_app.py
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+PrivateTmp=true
+Restart=always
+Nice=0
+
+[Install]
+WantedBy=multi-user.target
