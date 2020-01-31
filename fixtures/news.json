@@ -1,0 +1,1658 @@
+[
+{
+    "model": "news.category",
+    "pk": 1,
+    "fields": {
+        "name": "SEO",
+        "slug": "seo",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 2,
+    "fields": {
+        "name": "Python",
+        "slug": "python",
+        "in_menu": true,
+        "order": 2
+    }
+},
+{
+    "model": "news.category",
+    "pk": 3,
+    "fields": {
+        "name": "Google",
+        "slug": "google",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 4,
+    "fields": {
+        "name": "Spying",
+        "slug": "spying",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 5,
+    "fields": {
+        "name": "Artificial intelligence",
+        "slug": "artificial-intelligence",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 6,
+    "fields": {
+        "name": "5G",
+        "slug": "5g",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 7,
+    "fields": {
+        "name": "Vietnam",
+        "slug": "vietnam",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 8,
+    "fields": {
+        "name": "China",
+        "slug": "china",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 9,
+    "fields": {
+        "name": "United States",
+        "slug": "united-states",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 10,
+    "fields": {
+        "name": "Drones",
+        "slug": "drones",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 11,
+    "fields": {
+        "name": "Ethics",
+        "slug": "ethics",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 12,
+    "fields": {
+        "name": "Our Planet Matters",
+        "slug": "our-planet-matters",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 13,
+    "fields": {
+        "name": "Rolls-Royce Holdings",
+        "slug": "rolls-royce-holdings",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 14,
+    "fields": {
+        "name": "Airbus Group",
+        "slug": "airbus-group",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 15,
+    "fields": {
+        "name": "Air travel",
+        "slug": "air-travel",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 16,
+    "fields": {
+        "name": "Aerospace",
+        "slug": "aerospace",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 17,
+    "fields": {
+        "name": "Climate change",
+        "slug": "climate-change",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 18,
+    "fields": {
+        "name": "Boeing",
+        "slug": "boeing",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 19,
+    "fields": {
+        "name": "Cyber-security",
+        "slug": "cyber-security",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 20,
+    "fields": {
+        "name": "Nintendo",
+        "slug": "nintendo",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 21,
+    "fields": {
+        "name": "Gaming",
+        "slug": "gaming",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 22,
+    "fields": {
+        "name": "UK air pollution",
+        "slug": "uk-air-pollution",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 23,
+    "fields": {
+        "name": "Air pollution",
+        "slug": "air-pollution",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 24,
+    "fields": {
+        "name": "Dublin",
+        "slug": "dublin",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 25,
+    "fields": {
+        "name": "Disability",
+        "slug": "disability",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 26,
+    "fields": {
+        "name": "University of the West of England",
+        "slug": "university-of-the-west-of-england",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 27,
+    "fields": {
+        "name": "Madrid",
+        "slug": "madrid",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 28,
+    "fields": {
+        "name": "Reality TV",
+        "slug": "reality-tv",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 29,
+    "fields": {
+        "name": "Ljubljana",
+        "slug": "ljubljana",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 30,
+    "fields": {
+        "name": "Transport",
+        "slug": "transport",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 31,
+    "fields": {
+        "name": "Cardiff",
+        "slug": "cardiff",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 32,
+    "fields": {
+        "name": "Facebook",
+        "slug": "facebook",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 33,
+    "fields": {
+        "name": "Social media influencers",
+        "slug": "social-media-influencers",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 34,
+    "fields": {
+        "name": "Instagram",
+        "slug": "instagram",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 35,
+    "fields": {
+        "name": "Social media",
+        "slug": "social-media",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 36,
+    "fields": {
+        "name": "Retailing",
+        "slug": "retailing",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 37,
+    "fields": {
+        "name": "Data breaches",
+        "slug": "data-breaches",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 38,
+    "fields": {
+        "name": "IWG",
+        "slug": "iwg",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 39,
+    "fields": {
+        "name": "Disney",
+        "slug": "disney",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 40,
+    "fields": {
+        "name": "Netflix",
+        "slug": "netflix",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 41,
+    "fields": {
+        "name": "Streaming",
+        "slug": "streaming",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 42,
+    "fields": {
+        "name": "Canada",
+        "slug": "canada",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 43,
+    "fields": {
+        "name": "Vancouver",
+        "slug": "vancouver",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 44,
+    "fields": {
+        "name": "Huawei",
+        "slug": "huawei",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 45,
+    "fields": {
+        "name": "Xi Jinping",
+        "slug": "xi-jinping",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 46,
+    "fields": {
+        "name": "Myanmar",
+        "slug": "myanmar",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 47,
+    "fields": {
+        "name": "iPhones",
+        "slug": "iphones",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 48,
+    "fields": {
+        "name": "Apple",
+        "slug": "apple",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 49,
+    "fields": {
+        "name": "Mobile phones",
+        "slug": "mobile-phones",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 50,
+    "fields": {
+        "name": "European Commission",
+        "slug": "european-commission",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 51,
+    "fields": {
+        "name": "European Union",
+        "slug": "european-union",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 52,
+    "fields": {
+        "name": "Robotics",
+        "slug": "robotics",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 53,
+    "fields": {
+        "name": "Pollution",
+        "slug": "pollution",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 54,
+    "fields": {
+        "name": "Ministry of Defence",
+        "slug": "ministry-of-defence",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 55,
+    "fields": {
+        "name": "British Army",
+        "slug": "british-army",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 56,
+    "fields": {
+        "name": "Employment",
+        "slug": "employment",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 57,
+    "fields": {
+        "name": "France",
+        "slug": "france",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 58,
+    "fields": {
+        "name": "Companies",
+        "slug": "companies",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 59,
+    "fields": {
+        "name": "Tax",
+        "slug": "tax",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 60,
+    "fields": {
+        "name": "Killing of Jamal Khashoggi",
+        "slug": "killing-of-jamal-khashoggi",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 61,
+    "fields": {
+        "name": "Mohammed bin Salman",
+        "slug": "mohammed-bin-salman",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 62,
+    "fields": {
+        "name": "Phone Hacking",
+        "slug": "phone-hacking",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 63,
+    "fields": {
+        "name": "Jeff Bezos",
+        "slug": "jeff-bezos",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 64,
+    "fields": {
+        "name": "Amazon",
+        "slug": "amazon",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 65,
+    "fields": {
+        "name": "Saudi Arabia",
+        "slug": "saudi-arabia",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 66,
+    "fields": {
+        "name": "Wellbeing",
+        "slug": "wellbeing",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 67,
+    "fields": {
+        "name": "Vodafone",
+        "slug": "vodafone",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 68,
+    "fields": {
+        "name": "Cryptocurrency",
+        "slug": "cryptocurrency",
+        "in_menu": false,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 69,
+    "fields": {
+        "name": "PayPal",
+        "slug": "paypal",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 70,
+    "fields": {
+        "name": "Internet safety",
+        "slug": "internet-safety",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 71,
+    "fields": {
+        "name": "Children",
+        "slug": "children",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.category",
+    "pk": 72,
+    "fields": {
+        "name": "Information Commissioner's Office",
+        "slug": "information-commissioner-s-office",
+        "in_menu": true,
+        "order": 9
+    }
+},
+{
+    "model": "news.category",
+    "pk": 73,
+    "fields": {
+        "name": "OECD",
+        "slug": "oecd",
+        "in_menu": true,
+        "order": 6
+    }
+},
+{
+    "model": "news.category",
+    "pk": 74,
+    "fields": {
+        "name": "Global trade",
+        "slug": "global-trade",
+        "in_menu": false,
+        "order": 8
+    }
+},
+{
+    "model": "news.category",
+    "pk": 75,
+    "fields": {
+        "name": "Driverless cars",
+        "slug": "driverless-cars",
+        "in_menu": false,
+        "order": 7
+    }
+},
+{
+    "model": "news.category",
+    "pk": 76,
+    "fields": {
+        "name": "Honda",
+        "slug": "honda",
+        "in_menu": false,
+        "order": 5
+    }
+},
+{
+    "model": "news.category",
+    "pk": 77,
+    "fields": {
+        "name": "Car industry",
+        "slug": "car-industry",
+        "in_menu": true,
+        "order": 4
+    }
+},
+{
+    "model": "news.category",
+    "pk": 78,
+    "fields": {
+        "name": "General Motors",
+        "slug": "general-motors",
+        "in_menu": false,
+        "order": 3
+    }
+},
+{
+    "model": "news.category",
+    "pk": 79,
+    "fields": {
+        "name": "Brazil",
+        "slug": "brazil",
+        "in_menu": false,
+        "order": 2
+    }
+},
+{
+    "model": "news.category",
+    "pk": 80,
+    "fields": {
+        "name": "Cyber-crime",
+        "slug": "cyber-crime",
+        "in_menu": true,
+        "order": 1
+    }
+},
+{
+    "model": "news.author",
+    "pk": 1,
+    "fields": {
+        "name": "Sergey Chernenko",
+        "avatar": "avatars/suit.png",
+        "bio": "Bla bla bla"
+    }
+},
+{
+    "model": "news.author",
+    "pk": 3,
+    "fields": {
+        "name": "BBC News",
+        "avatar": "avatars/DeepinScreenshot_select-area_20200121170905.png",
+        "bio": "Technology News from BBC"
+    }
+},
+{
+    "model": "news.article",
+    "pk": 51,
+    "fields": {
+        "name": "More precious than gold: Why the metal palladium is soaring",
+        "slug": "more-precious-than-gold-why-the-metal-palladium-is-soaring",
+        "content": "<p>The price of the precious metal palladium has soared on the global commodities markets.<p><p>It has jumped by more than 25% in the last two weeks alone, and almost doubled in value over the last year.<p><p>At about $2,500 (\u00a31,922) an ounce of palladium is more expensive than gold, and the pressures forcing its price up are unlikely to ease anytime soon.<p><p>But what is palladium, what is it used for, and why is its price rising?<p><p>It is a shiny white metal in the same group as platinum, along with ruthenium, rhodium, osmium, and iridium.<p><p>The majority of the world's palladium comes from Russia and South Africa. Most of it is extracted as a byproduct in the mining of other metals, usually platinum and nickel.<p><p>Its key commercial use is as a critical component in catalytic converters - a part of a car's exhaust system that controls emissions - found mainly in petrol and hybrid vehicles.<p><p>The vast majority of palladium, more than 80%, is used in these devices that turn toxic gases, such as carbon monoxide, and nitrogen dioxide, into less harmful nitrogen, carbon dioxide, and water vapour.<p><p>It is also used, to a far lesser extent, in electronics, dentistry, and jewellery.<p><p>The metal's soaring value in recent years has seen a jump in the theft of catalytic converters around the world.<p><p>London's Metropolitan police said the number of thefts in the first six months of 2019 were more than 70% higher than the whole of the previous year.<p><p>In short, it is because demand for palladium outstrips supply, and it has done for some time.<p><p>The amount of the metal produced in 2019 is forecast to be below global demand for the eighth year in a row.<p><p>As a secondary product of platinum and nickel extraction, miners have less flexibility to increase palladium output in response to rising prices.<p><p>And that shortfall looks set to continue, with South Africa, which produces around 40% of the world's supply, last week saying its output of platinum group metals, including palladium, fell by 13.5% in November compared to a year earlier.<p><p>Meanwhile, demand for palladium from car makers has increased sharply for a number of reasons.<p><p>Around the world governments, notably China, are tightening regulations as they attempt to tackle air pollution from petrol vehicles.<p><p>At the same time the diesel emissions scandal in Europe has also had an impact. Consumers there have been shifting away from diesel cars, which mostly use platinum in their catalytic converters, and are instead buying petrol-driven vehicles, which use palladium.<p><p>The US-China trade deal, which was signed earlier this month, has also boosted prices. Traders expect the agreement to help ease downward pressure on global economic growth and slow the decline in Chinese car sales.<p>",
+        "content_words_count": null,
+        "short_description": "The price of the precious metal palladium has soared on the global commodities markets. It has jumped by more than 25% in the last two weeks alone, and almost doubled in value over the last year. At about $2,500 (\u00a31,922) an ounce of palladium is more expensive than gold, and the pressures forcing its price up are unlikely to ease anytime soon.",
+        "main_image": "images/more-precious-than-gold-why-the-metal-palladium-is-soaring.jpg",
+        "pub_date": "2020-01-21T16:34:57.736Z",
+        "author": 3,
+        "categories": [
+            22,
+            23,
+            53
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 52,
+    "fields": {
+        "name": "Apple may have to abandon Lightning connector cable",
+        "slug": "apple-may-have-to-abandon-lightning-connector-cable",
+        "content": "<p>Apple could be forced to abandon its Lightning connector cable if European lawmakers get their way.<p><p>The cable is used to charge and sync many Apple devices, such as the iPhone.<p><p>But members of the European Parliament urged the European Commission on Monday to force tech giants to adopt a single universal charging method.<p><p>Two other charging cables - USB-C and micro-USB - are used on Android devices, and Apple has already stopped using Lightning on the 2018 iPad Pro.<p><p>European regulators will vote on the matter on a yet to be determined date, but Apple says the proposed regulation would stifle innovation and be disruptive to consumers.<p><p>If the regulator enforces its proposed regulation, Apple devices sold in Europe would be required to have a new charging method.<p><p>It is likely Apple would then adopt USB-C, considering the company's 2018 iPad Pro ditched Lightning in favour of the technology.<p><p>Another possible option would be to remove charging ports and cables entirely and use wireless charging instead.<p><p>A new cable would mark the tech giant's third in 13 years.<p><p>The majority of newly-manufactured Android phones already feature USB-C ports.<p><p>The European Commission has been campaigning for a single charging method for the past decade.<p><p>There were more than 30 types of charger on the market in 2009, but that number has since been reduced to just three.<p><p>The regulator is determined to cut down on electronic waste being created by obsolete cables, which it estimates generate more than 51,000 tonnes of waste per year.<p><p>\"This is hugely detrimental for the environment,\" said European Parliament member Alex Agius Saliba.<p><p>\"A common charger should fit all mobile phones, tablets, e-book readers and other portable devices.\"<p><p>Apple, along with 10 other leading tech giants such as Nokia and Samsung, signed a memorandum of understanding in 2009.<p><p>They pledged to provide micro-USB compatible chargers for consumers.<p><p>However, Apple took advantage of a loophole that allowed manufacturers to continue using their own chargers if they offered an adaptor.<p><p>Then, in 2014, the EU passed the Radio Equipment Directive, which called for a \"renewed effort to develop a common charger\".<p><p>Apple insisted that its slimmer devices would be unable to fit the then-new USB-C technology, and it claimed it would cost up to $2bn (\u00a31.53bn) to meet the desired standard.<p><p>Apple and many of its rivals, such as Huawei and Samsung, have already released products that charge their devices wirelessly.<p><p>Although the technology is in its infancy, new developments have meant that it is now able to compete with traditional charging methods.<p><p>Some analysts are even predicting that Apple could scrap its charging ports altogether by releasing future iPhone and iPad models that rely solely on wireless charging.<p>",
+        "content_words_count": null,
+        "short_description": "Apple could be forced to abandon its Lightning connector cable if European lawmakers get their way. The cable is used to charge and sync many Apple devices, such as the iPhone. But members of the European Parliament urged the European Commission on Monday to force tech giants to adopt a single universal charging method.",
+        "main_image": "images/apple-may-have-to-abandon-lightning-connector-cable.jpg",
+        "pub_date": "2020-01-21T16:34:57.737Z",
+        "author": 3,
+        "categories": [
+            47,
+            48,
+            49,
+            50,
+            51
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 53,
+    "fields": {
+        "name": "Meng Wanzhou case: Huawei executive's extradition hearings begin",
+        "slug": "meng-wanzhou-case-huawei-executive-s-extradition-hearings-begin",
+        "content": "<p>A Canadian court has begun hearing the case of a senior Huawei executive fighting extradition to the United States.<p><p>Meng Wanzhou, 47, made no comment as she arrived at a Vancouver courthouse on Monday for a scheduled hearing.<p><p>The US wants Ms Meng to stand trial on charges including fraud linked to the alleged violation of US sanctions against Iran.<p><p>Ms Meng, who was arrested in late 2018 in Canada, denies any wrongdoing.<p><p>The case involving Huawei's chief financial officer is being closely watched in Canada, the US and China.<p><p>Her arrest has created a rift between China and Canada. On Monday, Beijing repeated its calls for Canada to release Ms Meng.<p><p>Meanwhile, the Chinese telecoms giant said it stood by its executive \"in her pursuit of justice and freedom\".<p><p>In a video statement released on its social media platforms as the hearing got underway, Huawei said it trusted in Canada's judicial system \"which will prove Ms Meng's innocence\".<p><p>This first phase of hearings is scheduled to run from 20-24 January in the British Columbia supreme court in Vancouver.<p><p>The court will hear arguments on whether the crime Ms Meng is accused of by the US would also be considered a crime in Canada.<p><p>The judge must be satisfied that it meets the so-called \"double criminality\" test before agreeing to an extradition.<p><p>Her lead defence lawyer, Richard Peck, argued in court on Monday that Canada is effectively being asked \"to enforce US sanctions\".<p><p>\"Sanctions drive this case,\" he said.<p><p>\"This case is founded on allegations of breach of US sanctions, which Canada has repudiated. The US has cast (Ms Meng's) alleged behaviour as a fraud against a bank. This is an artifice.\"<p><p>Canada's justice department has said it will justify extradition by arguing US accusations against Ms Meng would be considered a crime in Canada if they had occurred there.<p><p>Ms Meng is the chief financial officer of the Chinese telecom giant Huawei and daughter of its founder Ren Zhengfei.<p><p>She has been out on bail but under house arrest in Vancouver, where she owns property, since shortly after she was detained in December 2018.<p><p>Not long after her arrest, China detained two Canadian nationals - Michael Kovrig, a former diplomat, and Michael Spavor, a businessman - and has accused the pair of espionage.<p><p>The move by Beijing is widely viewed as \"hostage diplomacy\" - a tactic to put pressure on Canada to release the Huawei executive. Their detention has been called \"arbitrary\" by Canada and its allies.<p><p>Zoe Thomas, BBC Business, in Vancouver<p><p>Wearing a long polka dot dress, designer high heels and her ankle monitoring bracelet, Meng Wanzhou entered the courthouse looking defiant.<p><p>She waved to the crowds outside the court as she entered the building. That demeanour seems to be part of her legal team's strategy to argue this case is about politics not about criminal activity.<p><p>During the proceedings, lawyers petitioned the judge to have her moved from the prisoners' dock to their table, with better access to a translator.<p><p>Canada's Crown Council, meanwhile, has tried to focus on the bank fraud accusation and steer the arguments away from political debates around Iran sanctions and the US-China relationship.<p><p>But getting away from the political issues will be an uphill battle. The case has pulled Canada into a trade dispute between the US and China.<p><p>With a final decision some time away, that political attention will likely last for months to come.<p><p>Ms Meng's arrest also led to a trade row between Canada and China, with China blocking tens of millions of dollars of canola exports.<p><p>China says the case is political persecution by the US.<p><p>Washington has been lobbying its allies - including the UK - to not use Huawei's 5G technology services in critical communications infrastructure, alleging it could be a security threat.<p><p>If a judge is satisfied with the evidence presented, he or she will authorise that the individual be committed for extradition.<p><p>If not, the accused will be discharged and released from custody.<p><p>Even if the judge recommends extradition, it is the federal justice minister who makes the ultimate decision.<p><p>A second scheduled hearing, focusing on allegations of abuse of process and whether Canadian officials followed the law while arresting Ms Meng, is due to be heard in June.<p><p>It is highly likely the overall process could be lengthy. Ms Meng has avenues to appeal throughout the process and some extradition cases have dragged on for years.<p>",
+        "content_words_count": null,
+        "short_description": "A Canadian court has begun hearing the case of a senior Huawei executive fighting extradition to the United States. Meng Wanzhou, 47, made no comment as she arrived at a Vancouver courthouse on Monday for a scheduled hearing.",
+        "main_image": "images/meng-wanzhou-case-huawei-executive-s-extradition-hearings-begin.jpg",
+        "pub_date": "2020-01-21T16:34:57.850Z",
+        "author": 3,
+        "categories": [
+            42,
+            8,
+            43,
+            9,
+            44
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 54,
+    "fields": {
+        "name": "US officials ground drones over espionage fears",
+        "slug": "us-officials-ground-drones-over-espionage-fears",
+        "content": "<p>US officials may put an end to a civilian drone programme because of their concerns about the unmanned aerial vehicles that are made in China. The officials are apparently worried that the Chinese-made drones could be used to spy on people in the US.<p><p>After a volcano exploded in Hawaii in May 2018, US scientists used drones to save a man from the lava: \"Follow the drone,\" they said. He made it through the jungle.<p><p>Drones save people. They also map terrain, survey land and inspect pipelines. The scientists use drones for these and other purposes on a daily basis, and they have bragged about their successes in the field.<p><p>Many of the aircraft are made by Chinese companies, though. They are now grounded because of concerns about espionage.<p><p>The drones had been deployed for years by the scientists and others at the US Department of the Interior, a federal agency that manages national parks and other duties. But the head of the federal agency, David Bernhardt, is apparently now worried that the drones could be used for espionage.<p><p>He is examining the agency's civilian drone programme in an effort to determine whether or not it should be continued. During this time, many of the drones are grounded, according to an agency spokeswoman, Melissa Brown. \"Until this review is completed, the secretary has directed that drones manufactured in China or made from Chinese components be grounded,\" according to a statement she sent to the BBC.<p><p>Drones that are used to fight fires and help rescue people are still allowed to fly, she added. News of the fleet's grounding was first reported in the Financial Times.<p><p>Mr Bernhardt's review of the drone programme reflects a growing concern among US officials about Chinese technology and espionage.<p><p>President Donald Trump has spoken in dark terms about China, saying that its leaders have \"cheated\" the US and that its intelligence agents spy on people here. Chinese officials deny the accusations. Despite the rhetoric, US-China relations have improved.<p><p>On Wednesday, Trump is planning to sign an initial trade deal with Chinese leaders. Still, fundamental issues remain, such as the fight over technology. US officials have said in the past that Huawei, the telecommunications company, and other Chinese companies could pose a security threat.<p><p>Some Chinese analysts say the fight is not over national security but market share. The Chinese are better at making products, they say, and Americans are jealous. The Chinese analysts see the US policies as a form of protectionism.<p><p>The drones are now at the centre of the US-China dispute.<p><p>Many of the drones that are used by US scientists are made by a Shenzhen-based company called Da Jiang Innovations Science and Technology Company, or, DJI. The company dominates the drone market, according to a research company, Skylogic.<p><p>US officials have in the past expressed concerns about DJI. Agents at a US immigration office said in 2017 that the company's drones could collect information about US sites and transmit data back to Beijing.<p><p>Rules and norms are different for private companies in China than they are in the US. Business executives in China stay in close contact with government officials. US officials worry about the information that Chinese drones could collect and what might be done with the data.<p><p>The Chinese executives could pass the data on to Beijing officials, explains Sarah Cook, a senior analyst with Freedom House, a non-profit organisation.<p><p>Executives who work for DJI say their drones are trustworthy. Michael Oldenburg, a spokesman for DJI Technology Inc, tells the BBC there is no \"credible evidence to support a broad country-of-origin restriction on drone technology\".<p><p>Many US analysts agree with Oldenburg's assessment. \"I doubt the Chinese government is using the drones to conduct massive surveillance,\" says David Fidler, an adjunct senior fellow at the Council on Foreign Relations.<p><p>Fidler and others admit it is impossible to know how much information the drones are gathering, however. Analysts emphasise that the Chinese officials pose a threat to the US and that Chinese companies should be banned from certain kinds of work.<p><p>\"I wouldn't want a Chinese server operating our nuclear system,\" says Paul Rosenzweig, a senior fellow at the conservative R Street Institute who served as a US Department of Homeland Security official during the George W Bush White House years.<p><p>Yet Rosenzweig and others say that the drones seem benign. The aircraft fly over wildlife areas and parks and are unlikely to collect sensitive data. \"It is an acceptable risk,\" Rosenzweig says, adding: \"I don't think drones covering Yosemite National Park are a real threat.\"<p><p>The real assessment, the one from the secretary of the interior, is yet to be announced, however. In the meantime, scientists and others wait - and wonder - about the fate of the drones.<p>",
+        "content_words_count": null,
+        "short_description": "US officials may put an end to a civilian drone programme because of their concerns about the unmanned aerial vehicles that are made in China. The officials are apparently worried that the Chinese-made drones could be used to spy on people in the US.",
+        "main_image": "images/us-officials-ground-drones-over-espionage-fears.jpg",
+        "pub_date": "2020-01-21T16:34:57.952Z",
+        "author": 3,
+        "categories": [
+            4,
+            8,
+            9,
+            10
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 55,
+    "fields": {
+        "name": "Regus sales staff data exposed after undercover job review",
+        "slug": "regus-sales-staff-data-exposed-after-undercover-job-review",
+        "content": "<p>Job performance details about more than 900 employees of a major office-space provider have been published online by accident after a staff review.<p><p>Sales staff at Regus had been recorded showing researchers posing as clients around office space available to rent.<p><p>Information about the employees was later published on Trello, a task-management website.<p><p>And a spreadsheet with names, address and job performance data was found via Google by the Telegraph newspaper.<p><p>The names and addresses of hundreds of the researchers, contracted from a company called Applause by Regus parent company IWG, were also included.<p><p>\"Team members are aware they are recorded for training purposes and each recording is shared with the individual team member and their coach to help them become even more successful in their roles,\" IWG said.<p><p>\"We are extremely concerned to learn that an external third-party provider, who implemented the exercise, inadvertently published online the outcomes of an internal training and development exercise.<p><p>\"As our primary concern we took immediate action and the external provider has now removed the content.\"<p><p>Michael Pryor, co-founder of Trello said: \"Trello boards are set to private by default and must be manually changed to public by the user.<p><p>\"We strive to make sure public boards are being created intentionally and have built in safeguards to confirm the intention of a user before they make a board publicly visible.\"<p><p>The data breach has not been reported to the UK's Information Commissioner's Office.<p><p>BBC News has asked the Luxembourg data commissioner if the breach has been reported there instead and contacted Applause for comment.<p><p>An Applause spokesman said: \"Since being made aware of this issue, we have reiterated our [information security] policies with our worldwide employees and have run an internal audit to confirm that there are no other unapproved third-party software tools being used in any client engagements.\"<p><p>21 January 2020: This story has been updated to include a statement from Trello.<p>",
+        "content_words_count": null,
+        "short_description": "Job performance details about more than 900 employees of a major office-space provider have been published online by accident after a staff review. Sales staff at Regus had been recorded showing researchers posing as clients around office space available to rent.",
+        "main_image": "images/regus-sales-staff-data-exposed-after-undercover-job-review.jpg",
+        "pub_date": "2020-01-21T16:34:57.967Z",
+        "author": 3,
+        "categories": [
+            36,
+            37,
+            38
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 56,
+    "fields": {
+        "name": "Dad builds Nintendo games controller for disabled daughter",
+        "slug": "dad-builds-nintendo-games-controller-for-disabled-daughter",
+        "content": "<p>A man has hand-built a custom controller for his disabled daughter so she is able to play video games.<p><p>Rory Steel said the Nintendo Switch controller was built for nine-year-old Ava with a Microsoft device and components from eBay for about \u00a3110.<p><p>A video on Twitter of Ava, who is from Jersey, using the device has had more than 800,000 views.<p><p>Mr Steel said she had given the device a \"big thumbs-up\" and the attention had been \"a little bit surreal\".<p><p>He said Ava, who has hereditary spastic paraplegia which affects her motor controls and speech, made the suggestion after seeing videos online.<p><p>Teacher Mr Steel, head of the Digital Jersey Academy, built the device with two joysticks and arcade game-style flashing buttons hooked up to a Microsoft Xbox adaptive controller.<p><p>He said the controller was built in a weekend after some \"serious soldering\" and \"wire management\".<p><p>Mr Steel, who described himself as \"always a bit of a tinkerer\", said Ava's five-year-old brother Corben, who has the same condition, was also involved.<p><p>He said Ava had \"actually stolen the limelight\", but the younger sibling was \"straight in afterwards\" to also play The Legend of Zelda: Breath of the Wild.<p><p>\"She also said that she's made me famous and asked 'What's my cut?!',\" Mr Steel said.<p><p>Some of Mr Steel's tweets were reposted by Bryce Johnson, founder of Microsoft's Inclusive Tech Lab and an inventor of the Xbox controller, who also gave him some suggestions for the controller.<p><p>Mr Steel said the project was ongoing, with future ideas including putting it into a wedge-shaped housing to make it easier to use.<p><p>He also said he was planning to put up instructions online for people who wanted to build such devices after requests from parents of children with similar conditions.<p>",
+        "content_words_count": null,
+        "short_description": "A man has hand-built a custom controller for his disabled daughter so she is able to play video games. Rory Steel said the Nintendo Switch controller was built for nine-year-old Ava with a Microsoft device and components from eBay for about \u00a3110.",
+        "main_image": "images/dad-builds-nintendo-games-controller-for-disabled-daughter.jpg",
+        "pub_date": "2020-01-21T16:34:58.739Z",
+        "author": 3,
+        "categories": [
+            20,
+            21,
+            25
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 57,
+    "fields": {
+        "name": "Google boss Sundar Pichai calls for AI regulation",
+        "slug": "google-boss-sundar-pichai-calls-for-ai-regulation",
+        "content": "<p>The head of Google and parent company Alphabet has called for artificial intelligence (AI) to be regulated.<p><p>Writing in the Financial Times, Sundar Pichai said it was \"too important not to\" impose regulation but argued for \"a sensible approach\".<p><p>He said that individual areas of AI development, like self-driving cars and health tech, required tailored rules.<p><p>Last week it was revealed that the European Commission is considering a five-year ban on facial recognition.<p><p>Earlier this month, the White House published its own proposed regulatory principles and urged Europe to \"avoid heavy-handed innovation-killing models\".<p><p>Mr Pichai noted that while AI had enormous potential there were also considerable dangers, such as the misuse of deepfakes, which are computer-generated clips that are designed to look real.<p><p>Maria Axente, responsible AI lead at Pricewaterhouse Coopers, told the BBC she believes regulation is the right path for the sector.<p><p>\"The question is how can it be done in a way that doesn't kill innovation, as well as continue to balance the benefits of AI with the risks it poses, as AI becomes more embedded in our lives?\" she said.<p><p>\"Regulation and self-regulation, via a code of ethics and an ethics board, might not be enough to do that.\"<p><p>Google launched its own independent ethics board in 2019, but shut it down less than two weeks later following controversy about who had been appointed to it.<p><p>Mr Pichai will be speaking at the World Economic Forum, which takes place this week in Switzerland, along with Microsoft's Satya Nadella and Huawei founder Ren Zhengfei.<p>",
+        "content_words_count": null,
+        "short_description": "The head of Google and parent company Alphabet has called for artificial intelligence (AI) to be regulated. Writing in the Financial Times, Sundar Pichai said it was \"too important not to\" impose regulation but argued for \"a sensible approach\".",
+        "main_image": "images/google-boss-sundar-pichai-calls-for-ai-regulation.jpg",
+        "pub_date": "2020-01-21T16:34:58.852Z",
+        "author": 3,
+        "categories": [
+            3,
+            5,
+            11
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 58,
+    "fields": {
+        "name": "Disney+ to launch a week earlier than planned in the UK",
+        "slug": "disney-to-launch-a-week-earlier-than-planned-in-the-uk",
+        "content": "<p>The new streaming service Disney+ is to launch on 24 March in the UK, a week earlier than originally planned.<p><p>Pricing has also been revealed - it will cost \u00a35.99 per month or \u00a359.99 a year, making it more expensive than the earlier DisneyLife platform.<p><p>Disney+ launched in the US and Canada in November, where it became the most downloaded app.<p><p>The new launch date may be an attempt to tackle piracy of shows like The Mandalorian, suggested one expert.<p><p>The other European countries that will receive Disney+ at the same time as the UK are Ireland, France, Germany, Italy, Spain, Austria and Switzerland.<p><p>The Netherlands already has access as it was used as a testing ground for the platform.<p><p>In the US, Disney+ costs $6.99 (\u00a35.36) per month.<p><p>\"The UK price was predictable given the aggressive US charge and the trend of a race to the bottom in terms of price - none of these services are going to make money for years,\" Tom Harrington at Enders Analysis told the BBC.<p><p>He added that executives may have been under pressure to bring forward their original plan because the firm wanted \"to get The Mandalorian out there before even more people pirate it\".<p><p>Disney has confirmed that the new service will replace DisneyLife in the UK and Ireland.<p><p>The earlier streaming platform had been offered since 2015, and also offered access to Disney's library of cartoons and films, but excluded content including the Star Wars films, Marvel movies and National Geographic documentaries provided by its successor.<p><p>DisneyLife cost \u00a31 less per month and also included access to ebooks and music, which are not bundled into the new package.<p><p>However, one advantage of the new service is that some content will be screened in 4K resolution, which was not the case before.<p><p>In the US, Disney+ also includes the back catalogue to The Simpsons cartoon series, which Disney acquired when it bought 21st Century Fox last year. However, it has not been confirmed if this will be offered to the UK or other European countries.<p><p>By comparison, Netflix's \"basic\" plan also costs \u00a35.99 per month, but does not offer HD or 4K.<p><p>And Sky's Now TV service - which contains some Disney content - divides up films and TV shows into different packages and charges an extra \u00a33 a month fee if users want to watch them in 1080p rather than 720p resolution.<p><p>Netflix is expected to announce financial results later today, which may reveal how much of an impact rising competition from Disney+ has had on the streaming giant's fortunes.<p><p>Disney+ will become available in Belgium, Portugal and Nordic countries in the summer of 2020.<p>",
+        "content_words_count": null,
+        "short_description": "The new streaming service Disney+ is to launch on 24 March in the UK, a week earlier than originally planned. Pricing has also been revealed - it will cost \u00a35.99 per month or \u00a359.99 a year, making it more expensive than the earlier DisneyLife platform.",
+        "main_image": "images/disney-to-launch-a-week-earlier-than-planned-in-the-uk.jpg",
+        "pub_date": "2020-01-21T16:34:58.904Z",
+        "author": 3,
+        "categories": [
+            39,
+            40,
+            41
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 59,
+    "fields": {
+        "name": "Vietnamese firm Viettel's 5G claim raises eyebrows outside",
+        "slug": "vietnamese-firm-viettel-s-5g-claim-raises-eyebrows-outside",
+        "content": "<p>A Vietnamese firm's claim to be a fresh force in 5G network equipment is being treated with scepticism by industry experts.<p><p>Last week, Viettel demoed a video call saying it had used 5G network hardware and software developed in-house.<p><p>It added that it aimed to commercialise the technology later this year.<p><p>But experts say high research costs and others' ownership of critical patents would make it a difficult sector to break into in any meaningful way.<p><p>Viettel - which is controlled by Vietnam's military - suggested its engineers had developed the radio base station involved after just six months of work, during which they had \"officially mastered 5G network technology\".<p><p>\"Currently, five companies have successfully produced network devices for 5G including Ericsson, Nokia, Huawei, Samsung and ZTE,\" the company added in a Vietnamese-language press release.<p><p>\"Viettel will be the sixth supplier in the world to produce this device [and the] only operator that is capable of producing its own network equipment.\"<p><p>It said it intended to launch civil and military 5G services in the country from June.<p><p>The release also quoted Chu Ngoc Anh, the country's science and technology minister, as saying: \"This presents a very rare opportunity to create a research and development platform that Vietnam can develop further.\"<p><p>Viettel first announced plans to use its own 5G equipment last August, when it said it would supplement it with kit from the European vendors Ericsson and Nokia.<p><p>This bucked a trend in other South East Asian countries to use Huawei's products.<p><p>At the time, Viettel's chief, Major General Le Dang Dung, said that he was concerned about reports \"that it's not safe to use Huawei\", although he added that if he received \"favourable information\" about the Chinese firm in the future, he might reconsider.<p><p>One industry analyst said he thought it unlikely that Viettel was now poised to become a serious competitor in its own right.<p><p>\"It cost the other players billions of dollars to develop their own 5G portfolios and they didn't do it overnight,\" commented Dan Bieler, an analyst at Forrester Research.<p><p>\"I'm sceptical from a perspective of how much capital expenditure Viettel really has available to fund such research and then manufacture these products.<p><p>\"If this is only about using certain components it has manufactured and designed, then that would not be such a huge story - but it's a very large claim to suggest it is in the same league as Nokia, Ericsson and Huawei.\"<p><p>Another expert also expressed reservations.<p><p>\"Even if it they could get past other hurdles, Viettel would have to pay patent and royalty fees to the likes of Qualcomm, Huawei and Ericsson, which would make it financially unrealistic to create and sell its own infrastructure,\" suggested Dimitris Mavrakis, from ABI Research.<p><p>\"It would have to pay exorbitant amounts - the technology specifications and the intellectual property rights are very tightly controlled.<p><p>\"It's not as if anyone can just jump in and create their own, otherwise other industry giants like AT&T, Verizon and Vodafone would also have done the same.\"<p><p>In addition to being Vietnam's largest network operator, Viettel also offers services in 10 other countries across Asia, Latin America and Africa.<p><p>And a third market-watcher was more positive about its potential in that light.<p><p>\"Vietnam has been following China in its economic development with a 10-year lag - both have been remarkably good at investing in hi-tech and have taken the 5G opportunity seriously,\" said Stephane Teral from IHS Markit.<p><p>\"I expect Viettel to remain focused on its home Viet Nam turf, and then, move to its foreign footprints in Burundi, Cambodia, Cameroon, East Timor, Haiti, Laos, Mozambique, Myanmar, and Tanzania - deploying 5G where the established vendors are not because they remain focused on more lucrative markets, and de facto become a sixth force.\"<p>",
+        "content_words_count": null,
+        "short_description": "A Vietnamese firm's claim to be a fresh force in 5G network equipment is being treated with scepticism by industry experts. Last week, Viettel demoed a video call saying it had used 5G network hardware and software developed in-house.",
+        "main_image": "images/vietnamese-firm-viettel-s-5g-claim-raises-eyebrows-outside.jpg",
+        "pub_date": "2020-01-21T16:34:59.130Z",
+        "author": 3,
+        "categories": [
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 60,
+    "fields": {
+        "name": "DDoS: Man who sold website defences pleads guilty to attacks",
+        "slug": "ddos-man-who-sold-website-defences-pleads-guilty-to-attacks",
+        "content": "<p>A man in the US who co-founded a service to protect sites from cyber-attackers has pleaded guilty to launching distributed denial of service (DDoS) attacks.<p><p>Tucker Preston is co-founder of BackConnect, a cyber-security firm that claimed to be \"the new industry standard in DDoS mitigation\".<p><p>However, he was accused of arranging DDoS attacks targeting an unnamed firm.<p><p>A court document stated the attacks took place between 2015 and 2016.<p><p>News of the guilty plea was published online by Brian Krebs, a cyber-security expert and blogger.<p><p>During a DDoS attack, a website or online service is flooded with high levels of internet traffic in an attempt to cause disruption or take the target website or service offline.<p><p>Preston, of Georgia, had arranged for DDoS attacks against a company with servers in New Jersey, according to the US Department of Justice.<p><p>\"The count to which Preston pleaded guilty is punishable by a maximum penalty of 10 years in prison and a fine of up to $250,000 or twice the gross gain or loss from the offence,\" the Department said in a statement.<p><p>Preston is due to be sentenced in May.<p>",
+        "content_words_count": null,
+        "short_description": "A man in the US who co-founded a service to protect sites from cyber-attackers has pleaded guilty to launching distributed denial of service (DDoS) attacks. Tucker Preston is co-founder of BackConnect, a cyber-security firm that claimed to be \"the new industry standard in DDoS mitigation\".",
+        "main_image": "images/ddos-man-who-sold-website-defences-pleads-guilty-to-attacks.jpg",
+        "pub_date": "2020-01-21T16:34:59.528Z",
+        "author": 3,
+        "categories": [
+            19,
+            9
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 61,
+    "fields": {
+        "name": "Influencers 'being offered thousands for sex'",
+        "slug": "influencers-being-offered-thousands-for-sex",
+        "content": "<p>Top social media influencers are being propositioned daily by strangers with offers of thousands of pounds in return for sex, the Victoria Derbyshire programme has been told. One said social media had become \"a catalogue\" for men to select their next conquest.<p><p>\"It's high-end prostitution - it's just scary to think if they've messaged me, they've probably sent it to thousands of pretty girls on Instagram,\" says Tyne-Lexy Clarson.<p><p>She says she was only 19 when she was first propositioned, with an offer of \u00a320,000 for dinner and drinks.<p><p>But after starring in series two of Love Island, an agency emailed, offering her \u00a350,000 for five nights in Dubai. It contained a non-disclosure agreement, stating that the details of what she would be required to do would remain confidential.<p><p>Tyne-Lexy says she refused the offer, but fears that struggling influencers who do not receive luxury items for free would feel pressure to \"keep up appearances\" and become vulnerable to these kinds of transactions.<p><p>\"It's a lot of money for some people, it's life-changing amounts of money.\"<p><p>Rosie Williams, who starred in series three of Love Island, says she was offered \u00a3100,000 a year plus all her clothes and bags, to become a companion to a man in Dubai.<p><p>She showed us one of the recent messages she had received, from a man purporting to be in Dubai. It says she may be surprised to hear from him but he has an \"important transaction\" he wishes to share - which she says is a common turn of phrase in these messages.<p><p>And she says she would never be tempted, despite the large amount of money involved.<p><p>Rosie says it is not an aspect of fame she anticipated: \"You're warned about trolling, you're warned that your life will change dramatically, but you're never warned that you could get bought by men.\"<p><p>And she says it is not spoken about in influencer circles: \"We either aren't in a position where we need to do it so we don't speak about it, or we've done it and we're too ashamed.\"<p><p>This programme has seen several messages which influencers have received. The approaches vary from men directly suggesting sex, to agents acting on behalf of a wealthy client.<p><p>We received anonymous written evidence from a person claiming to be a British reality star, who said she had been offered \u00a310,000 for sex as part of a holiday package.<p><p>\"Isabel\" said she was first approached on Instagram by a man 10 years older than her, after she had competed in a TV talent show.<p><p>\"I was initially offered designer handbags. He had a fetish for being financially dominant so he would get a sexual kick out of spending hundreds and hundreds of pounds on bags for me,\" she explained. \"I would also struggle to keep my followers engaged online. So I guess that's why I accepted the offer. \"<p><p>She said they did not meet for 18 months and spoke every day, so she was excited to meet him.<p><p>\"He was really pleasant when I was there. At dinner we started drinking and he was asking about my finances - I explained I was in \u00a35,000 of debt. He said: 'Have sex with me and I'll give you double that'.\"<p><p>\"Isabel\" said she went up to his hotel room and went through with it. \"I felt a kind of a mixture of degraded, really annoyed at myself, violated.\"<p><p>But she insists it is not a form of prostitution: \"It is a targeted relationship that progresses over time... Whereas I think prostitution is when you agree a fee with a stranger.\"<p><p>The feminist group, Object, which campaigns against the sexual objectification of women, said it understood why women accepted the \"hugely tempting\" offers.<p><p>Heather Brunskell-Evans said: \"The women who are involved with this will not want to hear the word prostitution. The reality is that they are selling their bodies for money.<p><p>\"The groomers are offering the woman everything she needs to be a success at her job as an influencer, but ultimately it's exploitation, and that woman will have to do things for that money that she doesn't want to associate herself with, that make her feel shamed.\"<p><p>Celebrity agent Rob Cooper said it was not only women who were approached. He said one man who was posting online was regularly offered money to perform sex acts.<p><p>\"I would say a high-level influencer or reality star receives these messages every single day.\"<p><p>He added that social media platforms should find a way of making people accountable to their account - using something like a passport or national insurance number - so that if they're blocked they would have to appeal to get their account reinstated.<p><p>A Facebook company spokesman said: \"Sexual solicitation is not tolerated on Instagram, and those who repeatedly break our guidelines will be banned. We want Instagram to be a safe space for people to express themselves. We invest heavily in tools and technologies to prevent harassment on the platform.\"<p><p>Follow the BBC's Victoria Derbyshire programme on Facebook and Twitter - and see more of our stories here.<p>",
+        "content_words_count": null,
+        "short_description": "Top social media influencers are being propositioned daily by strangers with offers of thousands of pounds in return for sex, the Victoria Derbyshire programme has been told. One said social media had become \"a catalogue\" for men to select their next conquest.",
+        "main_image": "images/influencers-being-offered-thousands-for-sex.jpg",
+        "pub_date": "2020-01-21T16:34:59.788Z",
+        "author": 3,
+        "categories": [
+            28,
+            32,
+            33,
+            34,
+            35
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 62,
+    "fields": {
+        "name": "Facebook blames 'technical issue' for offensive Xi Jinping translation",
+        "slug": "facebook-blames-technical-issue-for-offensive-xi-jinping-translation",
+        "content": "<p>Facebook has apologised for translating Chinese President Xi Jinping's name from Burmese to English into an obscenity on its platform.<p><p>The translation gaffe came to light on the second day of Mr Xi's state visit to Myanmar.<p><p>On Saturday, Mr Xi met Myanmar's leader Aung San Suu Kyi to enhance bilateral relations.<p><p>In Burmese Facebook posts about their meeting, Mr Xi's name in English was translated erroneously.<p><p>His name appeared as \"Mr Shithole\" in Facebook posts shared on the official accounts of Ms Suu Kyi and her office.<p><p>Facebook addressed the mishap in a statement on Saturday, blaming a \"technical issue\" for the mistranslation.<p><p>\"We fixed a technical issue that caused incorrect translations from Burmese to English on Facebook,\" said Andy Stone, a spokesman for Facebook. \"This should not have happened and we are taking steps to ensure it doesn't happen again.\"<p><p>Burmese is the official language in Myanmar, where it is spoken by two-thirds of the population.<p><p>Facebook admitted that Mr Xi's name had not been inputted into the database that translates Burmese into English.<p><p>In instances where data for a word is missing, Facebook's system guesses the translation, using similar syllables to replace it, the company said.<p><p>Translation tests of similar words that start with \"xi\" and \"shi\" in Burmese also produced \"shithole\", it added.<p><p>\"We are aware of an issue regarding Burmese to English translations on Facebook, and we're doing everything we can to fix this as quickly as possible,\" Mr Stone added in the statement.<p><p>As of Sunday morning, the English translation function did not appear to be working on the Burmese posts of official Facebook pages belonging to Ms Suu Kyi and the Myanmar government.<p><p>There were reports that coverage of the gaffe was censored in China, where the flow of information is controlled by the government.<p><p>In Myanmar, President Xi has sought to strengthen political and economic ties with the country.<p><p>During the two-day trip, lucrative infrastructure deals were jointly signed by Mr Xi and Ms Suu Kyi, a Nobel Peace Prize laureate and the State Counsellor of Myanmar.<p><p>The trip comes a month after Ms Suu Kyi was accused of \"silence\" over alleged atrocities against Rohingya Muslims in Myanmar at the International Court of Justice.<p>",
+        "content_words_count": null,
+        "short_description": "Facebook has apologised for translating Chinese President Xi Jinping's name from Burmese to English into an obscenity on its platform. The translation gaffe came to light on the second day of Mr Xi's state visit to Myanmar.",
+        "main_image": "images/facebook-blames-technical-issue-for-offensive-xi-jinping-translation.jpg",
+        "pub_date": "2020-01-21T16:34:59.883Z",
+        "author": 3,
+        "categories": [
+            32,
+            45,
+            8,
+            46
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 63,
+    "fields": {
+        "name": "France agrees to delay new tax on tech giants",
+        "slug": "france-agrees-to-delay-new-tax-on-tech-giants",
+        "content": "<p>France has agreed to delay collecting a new tax on multinational technology firms until the end of 2020, a French government official has told the BBC.<p><p>The digital services tax has provoked an angry response from Washington.<p><p>The US had threatened to impose retaliatory tariffs on $2.4bn (\u00a31.8bn) of French goods, including champagne and cheese, after the tax was passed in July 2019.<p><p>The US will not introduce extra import taxes this year, the official said.<p><p>The rapprochement was the result of a conversation between President Trump and President Macron on Monday.<p><p>Global tech giants including Google, Apple, Facebook and Amazon would have been due to make tax payments equivalent to 3% of their French revenues in April and then again in November.<p><p>France, along with several other European countries, pushed ahead with its own digital sales tax while it waited for a multilateral agreement about how such firms should be taxed to be drawn up by the Organisation for Economic Cooperation and Development (OECD).<p><p>If the OECD reaches a deal by the end of 2020, then France's unilateral tax will not be applied at all. If there is no multilateral agreement by then France will collect the two tranches of the tax.<p><p>Payments were already collected in November for 2019 on revenues from July. Those are still subject to final adjustments but will not be refunded under this agreement.<p><p>France, along with several other European countries, wants to limit the tech giants' ability to avoid taxes.<p><p>Many governments are concerned that US technology giants are avoiding taxes in the European Union. They argue taxes should be based on where the digital activity - browsing the page - takes place, not where firms have their headquarters.<p><p>The UK, Italy, Austria and Turkey are all considering imposing new levies themselves.<p><p>But trade officials in Washington say US firms are being unfairly targeted.<p><p>Microsoft President Brad Smith welcomed the news that France and the US had come to an agreement, and said the company supported the idea of an OECD-backed global agreement.<p><p>\"I think that it does make sense for big tech companies to pay appropriate taxes wherever we do business,\" he told the BBC's Talking Business programme.<p><p>He said big tech firms should \"find common ground\" on issues such as tax reform, so that they ended up paying taxes that national governments consider to be fair.<p><p>On Monday, Apple's chief executive Tim Cook backed the push for an overhaul of the global tax system.<p><p>\"I would certainly be the last person to say that the current system or the past system was the perfect system. I'm hopeful and optimistic that they (the OECD) will find something,\" Mr Cook said.<p>",
+        "content_words_count": null,
+        "short_description": "France has agreed to delay collecting a new tax on multinational technology firms until the end of 2020, a French government official has told the BBC. The digital services tax has provoked an angry response from Washington.",
+        "main_image": "images/france-agrees-to-delay-new-tax-on-tech-giants.jpg",
+        "pub_date": "2020-01-21T16:34:59.967Z",
+        "author": 3,
+        "categories": [
+            57,
+            9,
+            58,
+            59
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 64,
+    "fields": {
+        "name": "Europe-wide traffic survey to recruit 'citizen scientists'",
+        "slug": "europe-wide-traffic-survey-to-recruit-citizen-scientists",
+        "content": "<p>Traffic sensors are being set up in homes in five cities across Europe in a bid to learn more about traffic flow.<p><p>English academics are involved in sending out 1,500 sensors to be placed in homes in Madrid, Dublin, Cardiff, Ljubljana and Leuven.<p><p>The sensors will count the number and speed of all vehicles, cyclists and pedestrians that pass them.<p><p>Prof Enda Hayes, who is helping run the survey, said getting ordinary people involved would be key to its success.<p><p>\"We will be targeting certain areas but also asking for people to volunteer to have sensors in their homes,\" he said.<p><p>\"Our data will be uploaded to the cloud so it can be seen by anyone, be that private citizens, the local council or NGOs.<p><p>\"The evidence can be used in a number of initiatives relating to things like speed, noise, air pollution, safety and active travel. Hopefully it will place citizens in the centre of the debates on these issues.\"<p><p>The data gathered will be updated hourly and will be freely available for anyone to access online.<p><p>The cities are being included in a project called Citizens Observing UrbaN Transport (WeCount).<p><p>It is part of Horizon 2020, a European Commission-funded research project into sustainable economic growth.<p><p>With air pollution being blamed for 500,000 premature deaths across the continent in 2018, the experts running the survey hope their results can be used to make cities healthier places to live.<p><p>Prof Hayes, from the University of the West of England (UWE) in Bristol, says the technology being used is simple, but will enable people to take control of data where they live.<p><p>The sensors will be placed in homes with a clear view of the road outside.<p><p>Software inside them will analyse the speed and size of whatever passes it and determine whether it is a vehicle, pedestrian or cyclist.<p><p>\"The sensor components are made by Raspberry Pi, standard hardware that's available off the shelf. They are powered by a micro USB port,\" he said.<p><p>\"It will connect to the wi-fi in the person's home, just like any smartphone or computer.<p><p>\"Data is published hourly but the exact location of the sensor is not given, just the road it is on.\"<p><p>The software running on the units has been developed by Transport & Mobility Leuven (TML) and the sensors are already being used across Belgium.<p><p>Anyone can log on and see how many vehicles, pedestrians and cyclists have passed a certain point in the past hour.<p><p>WeCount follows projects such as the Copenhagen Hacking study, which uses information from cyclists to monitor traffic movement in the Danish capital.<p><p>WeCount, which is being led by engineering and emissions expert Kris Vanherle, began in December 2019 and will run for two years.<p><p>Prof Hayes says that while the overall motivation is reducing air pollution, there will be other focuses in individual cities.<p><p>\"In Cardiff we're aiming to put some near schools to study issues around the school run,\" he said. \"We'll also be putting sensors on roads the council have already marked as problematic from a transport point of view.<p><p>\"Overall we want to go beyond just data gathering. We want to turn these 'citizen scientists' into advocates who will use the data to work with employers, schools and local transport authorities to help drive forward healthier cities and healthier planning.\"<p><p>Prof Hayes believes a traffic study on this scale has never been done before and because the individual sensors are relatively cheap to produce, WeCount could start a mass movement of neighbourhoods being more informed about traffic in their area.<p><p>As an air quality expert, he says cities must take action on congestion now.<p><p>\"If we don't do anything we will see a continued decline in air quality in our urban environments across Europe and that will result in more deaths and more health issues.<p><p>\"We need to address one of the biggest sources of pollution which is traffic.\"<p>",
+        "content_words_count": null,
+        "short_description": "Traffic sensors are being set up in homes in five cities across Europe in a bid to learn more about traffic flow. English academics are involved in sending out 1,500 sensors to be placed in homes in Madrid, Dublin, Cardiff, Ljubljana and Leuven.",
+        "main_image": "images/europe-wide-traffic-survey-to-recruit-citizen-scientists.jpg",
+        "pub_date": "2020-01-21T16:35:00.145Z",
+        "author": 3,
+        "categories": [
+            22,
+            23,
+            24,
+            26,
+            27,
+            29,
+            30,
+            31
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 65,
+    "fields": {
+        "name": "Facebook creates 1,000 new UK jobs",
+        "slug": "facebook-creates-1000-new-uk-jobs",
+        "content": "<p>Facebook will create 1,000 new roles in London over the course of this year, including adding to its team tackling harmful online content.<p><p>More than half of the new jobs will be technology-focused, with roles in software engineering, product design and data science, the company said.<p><p>It will take Facebook's UK workforce to more than 4,000.<p><p>Pressure has been growing on social media firms to remove posts promoting self-harm and political extremism.<p><p>Facebook's chief operating officer Sheryl Sandberg will announce the new jobs in London later on Tuesday, before travelling to the World Economic Forum in Davos.<p><p>\"Many of these high-skilled jobs will help us address the challenges of an open internet and develop artificial intelligence to find and remove harmful content more quickly,\" she is expected to say.<p><p>Those roles will be in Facebook's \"community integrity\" team, which designs tools to police posts on Facebook's platforms including Messenger, Instagram and WhatsApp.<p><p>The firm had decided to invest more in policing online content, following the suicide of teenager Molly Russell in 2017, Steve Hatch, the firm's vice-president for northern Europe, told BBC Radio 4's Today programme.<p><p>\"The tragic death of Molly Russell made us really stop in our tracks as a company and acknowledge that there was an issue that we need to do more on.<p><p>\"We've been putting those changes in place steadily over the last 12 months,\" he said.<p><p>Molly Russell was 14 when she committed suicide. Her father, Ian, told the BBC that he believed Instagram was partly responsible for his daughter's death.<p><p>\"I have no doubt that Instagram helped kill my daughter,\" he said.<p><p>Facebook aimed to build on progress it had made in tackling terrorist content to remove other problematic content such as self-harming, Mr Hatch said.<p><p>The firm had detected and removed two million posts from Facebook and 800,000 from Instagram, he added.<p><p>\"As systems get better they develop, they get better and more effective,\" he said. \"Our aspiration is to remove every single piece of [harmful] content.\"<p><p>If you've been affected by self-harm, eating disorders or emotional distress, help and support is available via the BBC Action Line.<p>",
+        "content_words_count": null,
+        "short_description": "Facebook will create 1,000 new roles in London over the course of this year, including adding to its team tackling harmful online content. More than half of the new jobs will be technology-focused, with roles in software engineering, product design and data science, the company said.",
+        "main_image": "images/facebook-creates-1000-new-uk-jobs.jpg",
+        "pub_date": "2020-01-21T16:35:00.260Z",
+        "author": 3,
+        "categories": [
+            32,
+            56
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 66,
+    "fields": {
+        "name": "Robot tanks: On patrol but not allowed to shoot",
+        "slug": "robot-tanks-on-patrol-but-not-allowed-to-shoot",
+        "content": "<p>In 1985 the US pulled the plug on a computer-controlled anti-aircraft tank after a series of debacles in which its electronic brain locked guns onto a stand packed with top generals reviewing the device. Mercifully it didn't fire, but did subsequently attack a portable toilet instead of a target drone.<p><p>The M247 Sergeant York (pictured above) may have been an embarrassing failure, but digital technology and artificial intelligence (AI) have changed the game since then.<p><p>Today defence contractors around the world are competing to introduce small unmanned tracked vehicles into military service.<p><p>Just like an army on the move, there are contrasting views about how far and how fast this technology will advance. Above all, designers are testing the limits of human control and machine independence, the ultimate goal of autonomy.<p><p>Will this new generation of mini-tanks change the face of warfare? How much autonomy can they be trusted with?<p><p>Estonian soldiers currently serving in Mali are going out on patrol with an unmanned ground vehicle or UGV. The size of a sit-on lawn-mower with tracks, it carries heavy supplies such as water and ammunition. Trundling behind a conventional armoured personnel carrier it resembles an obedient younger sibling.<p><p>UK defence technology group Qinetiq presented the British army with a selection of these vehicles during a month-long trial on Salisbury Plain in late 2018. The basic UGV came from the Estonian company Milrem, but Qinetiq integrated a series of technology options onto it to create a trio of military roles.<p><p>More Technology of Business<p><p>Depending on the option chosen the UGV, known as Titan, can carry supplies or a heavy machine gun, or it can stand guard over its human comrades, using infra-red sensors and thermal imaging to supplement a battery of cameras.<p><p>Running on an electric-diesel hybrid engine Titan can be controlled by a human operator or sent off to perform tasks directed by its own software which can decide when to switch between power sources.<p><p>Keith Mallon is in charge of UGVs at Qinetiq. While a small tank weaving across a muddy plain is a curious sight, he focuses on the digital contents of the UGV.<p><p>\"We've had robotics for years, but the information revolution means it can navigate on its own.\"<p><p>Machine learning, a subset of the Artificial Intelligence (AI) revolution, means software embedded in Titan recognises patterns. Data from its cameras and other sensors is matched to prior examples so it can navigate to a chosen destination.<p><p>The idea is to have minimal human intervention while Titan goes about supporting the troops or exploring a dangerous area. But the freedom Qinetiq will grant to the UGV is strictly limited.<p><p>When it comes to firing a gun or anti-tank missile mounted on the chassis a human must always be in the loop to decide on the use of lethal force. \"We will never give software the capability to fire a weapon,\" says Keith Mallon.<p><p>Does all this mean robot mini-tanks have really won acceptance?<p><p>Nick Entwistle spent 19 years serving in the British army in tanks and armoured vehicles. Today he advises the army and has studied the results of the Salisbury Plain trials. He points out that warfare throws up choices that go way beyond the capabilities of current AI technology.<p><p>\"Even humans have trouble discriminating between a civilian and a combatant. And human beings are adept at reading situations. But look at Afghanistan where the enemy hid among civilians. So autonomy is not going to happen for some time. The technology is further away than some like to think.\"<p><p>Across the Atlantic US defence contractor FLIR has been buying up robotics firms in order to put together a UGV package with a group of technology and engineering firms, Team Ripsaw. This group has adapted the Ripsaw, a small tracked vehicle with sports car speeds popularised on TV and by Hollywood.<p><p>Originally marketed as a millionaire's plaything and subsequently starring in Fast and Furious 8, the Ripsaw may be about to earn further recognition as an unmanned war machine.<p><p>It has been chosen for detailed testing by the US Army's Robotic Combat Vehicle (RCV) programme. After evaluating a whole crop of UGVs the army intends to field some for real by the mid-2020s.<p><p>Team Ripsaw uses a handful of sophisticated visual and thermal sensors to see all around the UGV in day and night. These sensors live inside a gimbal on a mast that can be extended to peer far and wide. The big challenge is to pre-plan a mission and then let the UGV go and do it independently of an operator with radio control. This is where AI comes in.<p><p>David Ray is a senior FLIR executive and ex-US Air Force communications expert who served on Air Force One. As he sees it AI is \"about object detection, how you tell the difference between a broomstick and a gun\".<p><p>Again, machine learning is the key, showing the Ripsaw's digital mind a succession of images that build up a comparative picture of the world.<p><p>Self-driving cars can be programmed to recognise everyday events from videos. But you simply cannot show a machine real images of every possible situation that might arise in war.<p><p>So synthetic training aids, familiar from flight simulators and using hyper-realistic computer-generated images have been brought to bear. These reflect combat conditions. The machine-learning software builds up a library of capabilities as it absorbs images of conflict.<p><p>This merging of different technologies represents a big breakthrough for UGVs.<p><p>David Ray talks of the Ripsaw as \"very fast and flexible and able to traverse difficult terrain such as sand dunes\". It uses an electric-diesel hybrid motor that can transition to a silent approach in stark contrast to the barrage of noise laid down by conventional tanks. The US Army wants a discreet machine that can creep up on its target.<p><p>The real revelation about the Team Ripsaw vehicle lies in what FLIR calls its marsupial character. The little tank can open a hatch under its angled front to disgorge a junior robot partner, a smaller tracked machine based on a bomb disposal robot. This scuttles away into confined spaces to look for enemies lurking inside buildings or to detect toxic substances such as nerve agents.<p><p>The robot family doesn't stop there. A quadcopter drone can rise from the rear of the UGV to carry out aerial reconnaissance on behalf of its terrestrial team-mates.<p><p>This is layered surveillance, keeping manned vehicles well back from danger while a trio of tech-heavy toys spy on threats. Like Titan, Team Ripsaw has an armed option which resembles a smaller version of a normal tank.<p><p>As with his UK counterparts, David Ray is emphatic that a human will always be in the loop before firing.<p>",
+        "content_words_count": null,
+        "short_description": "In 1985 the US pulled the plug on a computer-controlled anti-aircraft tank after a series of debacles in which its electronic brain locked guns onto a stand packed with top generals reviewing the device. Mercifully it didn't fire, but did subsequently attack a portable toilet instead of a target drone.",
+        "main_image": "images/robot-tanks-on-patrol-but-not-allowed-to-shoot.jpg",
+        "pub_date": "2020-01-21T16:35:00.318Z",
+        "author": 3,
+        "categories": [
+            52,
+            54,
+            5,
+            55,
+            10
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 67,
+    "fields": {
+        "name": "Giant jet engines aim to make our flying greener",
+        "slug": "giant-jet-engines-aim-to-make-our-flying-greener",
+        "content": "<p>\"It's on another scale from anything I've seen before,\" says Lorna Carter who recently started working at a new Rolls-Royce research and development facility near Bristol.<p><p>She works with giant robots which lay thousands of strips of carbon fibre tape to form a cylinder some 3.7m (almost 12ft) in diameter.<p><p>The cylinder forms the outer shell of Rolls-Royce's new engine, the Ultrafan.<p><p>Still under development, Rolls-Royce says the Ultrafan will be quieter and more fuel efficient than anything it has made before.<p><p>It will certainly be bigger.<p><p>\"The component we're trying to make is massive and we are at capacity, it's really stretching the limits of what we can do,\" says Ms Carter.<p><p>At the \u00a325m facility Rolls-Royce has also developed robots that can make fan blades from carbon fibre, a process that has taken more than 10 years to perfect.<p><p>Making the fan casing and blades from carbon fibre should result in a 20% weight saving compared with previous materials.<p><p>And that's important as the aerospace industry is under pressure to reduce its environmental impact. Aircraft are getting more efficient, but airline traffic is growing even faster.<p><p>Rolls-Royce estimates that 37,000 new passenger aircraft will be needed over the next 20 years.<p><p>More Technology of Business<p><p>\"We've come a long way, but the challenge is to decouple emissions growth from traffic growth,\" says Alan Newby, future programmes director at Rolls-Royce.<p><p>The new engine will also incorporate a gearbox, allowing a much bigger fan, which results in a more efficient engine.<p><p>It's an innovation already being used on a smaller engine from US-based Pratt & Whitney Engine, the PW1000G.<p><p>While Rolls-Royce and others in the aerospace industry are working on electric and hybrid propulsion systems for aircraft, for long-haul aircraft, at the moment jet engines are the only option.<p><p>Given that it is a technology that has been around since World War Two, how much more efficiency can be squeezed out of the jet engine?<p><p>Quite a lot, according to Professor Pericles Pilidis, who is head of power and propulsion department at Cranfield University's Centre for Propulsion Engineering.<p><p>His department works with on research projects with aerospace companies including Airbus and Rolls-Royce.<p><p>\"I do expect improvements to continue,\" he says. Better materials, more efficient shapes and improved coatings can all contribute to make engines lighter and stronger.<p><p>He also points out that lighter engines mean the aircraft structure can be lighter as it has to carry less weight.<p><p>Those kind of incremental changes might not sound like much, but in the airline business they can make a big difference.<p><p>\"Evolutionary changes, they sound unimpressive - 10% here 12% there. But in the airline business with very thin margins, that is the difference between life and death,\" says Richard Aboulafia, vice-president of analysis at the Teal Group.<p><p>One UK firm though is looking to make a step change in propulsion. Reaction Engines is developing a rocket engine, called Sabre, to be used on high-speed aircraft and on spacecraft.<p><p>At the kind of speeds Reaction is aiming for, Mach 5 (five times the speed of sound) the air coming into the engine can reach temperatures of 1,000C.<p><p>That temperature would destroy the engine, so Reaction has developed a cooling system which can chill the incoming air in a fraction of a second.<p><p>The so-called pre-cooler is made from miniature tubes, less than 1mm thick, that can pipe coolant under high pressure through the system, and whisk heat away.<p><p>\"The Sabre is completely unique, there's nobody else in the world, that we are aware of, that's developing an air-breathing rocket engine,\" says Mark Thomas, chief executive of Reaction Engines.<p><p>\"Our pre-cooler technology... is in a different class to anything out there. It's ultra-high performance, ultra lightweight, highly miniaturised... it's just in a different league completely.\"<p><p>Reaction Engines plans to start building the Sabre engine this year and test it in 2021.<p><p>Reaction's pre-cooler can also potentially be used on conventional jet engines to make them more efficient, an idea being tested with Rolls-Royce.<p><p>According to Prof Pericles it will be another 30 years until we see a radical change in passenger aircraft.<p><p>By then he thinks there will be a transition from the current design, which is basically a tube, with engines hanging below the wings, to a \"blended wing\" design.<p><p>Under that design, the aircraft is just one set of wings, with engines sitting on the top.<p><p>Those engines might even by powered by hydrogen, which has the potential to be a very low emission fuel.<p><p>\"Hydrogen fuel is unavoidable,\" says Prof Pilidis. \"It is a long-term solution to decarbonise aviation completely.<p><p>However, environmentalists says action needs to be taken sooner.<p><p>\"There's always a role for technology to play in cutting emissions, but solving the climate crisis is something we need to get on with right now,\" says Jenny Bates, a campaigner at Friends of the Earth.<p><p>\"The priority instead needs to be emissions cuts by having fewer planes in the sky. This is a crucial part of preventing further climate breakdown.\"<p>",
+        "content_words_count": null,
+        "short_description": "\"It's on another scale from anything I've seen before,\" says Lorna Carter who recently started working at a new Rolls-Royce research and development facility near Bristol. She works with giant robots which lay thousands of strips of carbon fibre tape to form a cylinder some 3.7m (almost 12ft) in diameter.",
+        "main_image": "images/giant-jet-engines-aim-to-make-our-flying-greener.jpg",
+        "pub_date": "2020-01-21T16:35:00.621Z",
+        "author": 3,
+        "categories": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 68,
+    "fields": {
+        "name": "Jeff Bezos hack: Saudi Arabia calls claim \u2018absurd\u2019",
+        "slug": "jeff-bezos-hack-saudi-arabia-calls-claim-absurd",
+        "content": "<p>Saudi Arabia has denied that its crown prince was responsible for hacking Amazon boss Jeff Bezos' phone.<p><p>A message from a phone number used by the prince has been implicated in the data breach, according to reports.<p><p>The kingdom's US embassy said the stories were \"absurd\" and called for an investigation into them.<p><p>It was previously claimed the alleged hack was linked to the murder of Washington Post writer Jamal Khashoggi at the Saudi consulate in Istanbul.<p><p>As well as being the founder of online retail giant Amazon, Mr Bezos owns the Washington Post.<p><p>Mr Bezos' phone was hacked after receiving a WhatsApp message sent from Mohammed bin Salman's personal account, according to the Guardian newspaper.<p><p>The Financial Times reported that an investigation into the data breach found the billionaire's phone started secretly sharing huge amounts of data after he received an encrypted video file from the prince.<p><p>The Twitter account of the kingdom's US embassy issued an outright denial and called for the claims to be investigated.<p><p>Amazon did not immediately respond to a request for comment from the BBC.<p><p>The reports come after private information about Mr Bezos was leaked to the American tabloid the National Enquirer.<p><p>In February 2019 Mr Bezos accused the National Enquirer of \"extortion and blackmail\" after it published text messages between him and his girlfriend, former Fox television presenter Lauren Sanchez.<p><p>A month earlier he and MacKenzie Bezos, his wife of 25 years, announced that they planned to divorce having been separated for a \"long period\".<p><p>This is not the first time the kingdom has been linked to the hacking of Mr Bezos' phone.<p><p>In March last year an investigator for the Amazon founder said Saudi Arabia was behind the hack and it had accessed his data.<p><p>Gavin de Becker was hired by Mr Bezos to find out how his private messages had been leaked to the National Enquirer.<p><p>Mr de Becker linked the hack to the Washington Post's coverage of the murder of Saudi writer Jamal Khashoggi at the Saudi consulate in Istanbul.<p>",
+        "content_words_count": 326,
+        "short_description": "Saudi Arabia has denied that its crown prince was responsible for hacking Amazon boss Jeff Bezos' phone. A message from a phone number used by the prince has been implicated in the data breach, according to reports.",
+        "main_image": "images/jeff-bezos-hack-saudi-arabia-calls-claim-absurd.jpg",
+        "pub_date": "2020-01-22T09:55:00.935Z",
+        "author": 3,
+        "categories": [
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 69,
+    "fields": {
+        "name": "Burnout: 'Sick and tired of feeling sick and tired'",
+        "slug": "burnout-sick-and-tired-of-feeling-sick-and-tired",
+        "content": "<p>\"I was working non-stop. The company was almost like a love affair. I call it 'my greatest love affair', because it felt so, so important.<p><p>\"My identity was so wrapped up with work. If I wasn't doing that job, I didn't really know who I was.\"<p><p>In 2017, Amber Coster was a glamorous highflyer in a senior role at a successful tech start-up, in her late 20s and travelling the world.<p><p>\"On paper, my life looked incredible,\" she says.<p><p>But she was ignoring some significant signs that all was not well.<p><p>\"I used to say I was sick and tired of feeling sick and tired,\" Amber says.<p><p>And in addition to chronic fatigue and nausea, she was having migraines, extreme abdominal pain, skin rashes and eczema.<p><p>Her GP diagnosed a recurrence of teenage glandular fever.<p><p>And Amber, who lives in London, took two weeks off work to recover - but things got worse.<p><p>\"I lost my words - I couldn't speak properly,\" she says.<p><p>\"I'd sit at dinner with my partner and ask him to 'pass the post' instead of 'the water'.<p><p>\"I couldn't read numbers.<p><p>\"I couldn't walk down to the shops - I'd have to sit down on somebody's garden wall.\"<p><p>As the two weeks off turned into six months, doctors carried out countless tests.<p><p>One told her she had the blood-test results of \"a 20-year-old Olympian\".<p><p>\"I just cried,\" she says.<p><p>\"I knew that there was something wrong and I felt crazy,\" she says.<p><p>What the doctors didn't know - and Amber herself hadn't confronted - was she had been working extremely hard.<p><p>She had regularly been getting up at 05:30 to send emails, working through until 23:30, when she fell into bed, and cancelling weekend plans in order to do yet more work - all the while telling her team to ensure they made time to relax.<p><p>Nobody had said anything to her about her own routine.<p><p>Even when she had made an effort to spend fewer hours working, she had felt unable to switch off.<p><p>She describes the company, where she had been a senior manager, as \"a very aggressive, high-sales, revenue-first organisation\".<p><p>Its product was software enabling other businesses to run 24-7 and Amber says she had felt like she was becoming a part of the tech herself.<p><p>\"We spoke about greatness a lot,\" she says.<p><p>\"And we spoke about 'lion culture'.<p><p>\"We spoke about being strong and we spoke about being brave and doing things that other people don't do.<p><p>\"We spoke about being 'exceptional'.\"<p><p>Eventually, after she turned to a psychiatrist, Amber realised it was her mental health rather than her body that was, in her words, \"broken\".<p><p>Physical symptoms of burnout are a common warning sign, sleep expert and author Dr Nerina Ramlakhan says.<p><p>\"I've seen a great deal of this - and I'm seeing more and more of it,\" she tells BBC News.<p><p>\"The way in which we're using technology and information and screens puts us very much 'in our head'.<p><p>\"If we were paying more attention to what's happening in the body and getting off that mental treadmill, we would notice the niggles, the little aches and pains, the little early warning signals long before they become huge, great crescendos and screams for help.\"<p><p>Dr Ramlakhan advises taking screen breaks, however small, as often as possible - on the commute, in the bathroom, at lunch, keeping phones out of bedrooms at night, alongside healthy eating and going to bed at a reasonable time.<p><p>\"Little things like that can start to make a difference after seven to 10 days,\" she says.<p><p>Amber recovered and returned to her job.<p><p>She started doing some coaching around mental health and colleagues began to open up to her: the father who felt unable to talk about his children in the office because he feared it was a distraction, the woman whose marriage was failing because she wasn't spending time with her partner, others who felt unwell but worried they simply \"weren't tough enough\".<p><p>But when she discussed making changes at the company at a senior level, she was met with a mixed response.<p><p>On the one hand, they cared about the staff, she says, but on the other, they believed her experience was uncommon and most people \"needed a bit more of a push\" to get their jobs done.<p><p>Tech may be part of the \"always-on\" problem but entrepreneur Jana Dowling believes it could also hold the solution.<p><p>A serious mental-health crisis inspired her new app, designed to help people track their mental health in the same way they might track their diet, weight or workouts, and look for correlations in data between, for example, anxiety levels and sleep, or caffeine consumption and work stress.<p><p>The app, MyArkeo, has received over \u00a31m ($1.2m) in investment.<p><p>\"We're here to change the way people think about what it means to be fit, to include tracking their mental fitness,\" she says.<p><p>It is aimed primarily at 25- to 40-year-old professionals.<p><p>And the questions asked by MyArkeo can be answered only once a day, in order to avoid additional anxiety or encourage excessive screen time.<p><p>\"We're not a diagnosing tool. We're not a treatment tool,\" Jana says.<p><p>\"We're built as a tracking-performance tool to help people enhance their lives and their mental fitness.\"<p><p>Amber has now left her old company, bought a house, got married, run a marathon and started her own company, Balpro - with a mission to \"help businesses balance aggressive revenue goals with employee wellbeing\".<p><p>\"I used to believe that 'exceptional' was making sure that PowerPoint [presentation] was perfect, or we were getting that deal, or that this training was above the bar,\" she says.<p><p>\"What I now realise is that exceptional is finishing work and having dinner with your kids, or being present for a friend who's in need. Exceptional is standing up and saying, 'Hey, I need some help.'\"<p>",
+        "content_words_count": null,
+        "short_description": "\"I was working non-stop. The company was almost like a love affair. I call it 'my greatest love affair', because it felt so, so important. \"My identity was so wrapped up with work. If I wasn't doing that job, I didn't really know who I was.\"",
+        "main_image": "images/burnout-sick-and-tired-of-feeling-sick-and-tired.jpg",
+        "pub_date": "2020-01-22T09:55:01.405Z",
+        "author": 3,
+        "categories": [
+            66,
+            56
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 70,
+    "fields": {
+        "name": "Vodafone quits Facebook's Libra currency",
+        "slug": "vodafone-quits-facebook-s-libra-currency",
+        "content": "<p>Vodafone has become the latest company to leave Facebook's digital currency project, Libra.<p><p>The Libra Association has seen an exodus of backers including Paypal and Mastercard amid regulatory scrutiny.<p><p>Facebook announced in June last year that it would launch the digital currency in partnership with other members of the association.<p><p>But the project quickly ran into trouble with sceptical regulators around the world.<p><p>In October, the world's biggest economies warned cryptocurrencies such as Libra pose a risk to the global financial system.<p><p>\"Vodafone Group has decided to withdraw from the Libra Association,\" a Vodafone spokesperson said. \"We have said from the outset that Vodafone's desire is to make a genuine contribution to extending financial inclusion.\"<p><p>\"We remain fully committed to that goal and feel we can make the most contribution by focusing our efforts on [mobile payments platform] M-Pesa.\"<p><p>Dante Disparte, head of policy and communications for the Libra Association, said: \"Although the makeup of the Association members may change over time, the design of Libra's governance and technology ensures the Libra payment system will remain resilient\".<p><p>Payments giants Mastercard and Visa pulled out of the Libra project in October, citing regulatory uncertainty.<p><p>Paypal and eBay have also withdrawn from the scheme, which is backed by ride hailing companies Uber and Lyft.<p>",
+        "content_words_count": 203,
+        "short_description": "Vodafone has become the latest company to leave Facebook's digital currency project, Libra. The Libra Association has seen an exodus of backers including Paypal and Mastercard amid regulatory scrutiny.",
+        "main_image": "images/vodafone-quits-facebook-s-libra-currency.jpg",
+        "pub_date": "2020-01-22T09:55:01.911Z",
+        "author": 3,
+        "categories": [
+            67,
+            32,
+            68,
+            69,
+            58
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 71,
+    "fields": {
+        "name": "New 'transformational' code to protect children's privacy online",
+        "slug": "new-transformational-code-to-protect-children-s-privacy-online",
+        "content": "<p>Social media sites, online games and streaming services used by children will have to abide by a new privacy code set by the UK's data watchdog.<p><p>Elizabeth Denham, the information commissioner, said future generations will be \"astonished to think that we ever didn't protect kids online\".<p><p>She said the new Age Appropriate Design Code will be \"transformational\".<p><p>The father of Molly Russell, 14, who killed herself after viewing graphic content online, welcomed the standards.<p><p>The Information Commissioner's Office - the UK's data privacy regulator - published the new code of conduct on Wednesday, after a draft which was first revealed last April.<p><p>It hopes the changes will come into force by autumn 2021, once Parliament approves it, with large fines for breaches.<p><p>The code includes a list of 15 standards that companies behind online services are expected to comply with to protect children's privacy.<p><p>Examples of online services which are included are toys which are connected to the internet, apps, social media platforms, online games, educational websites and streaming service.<p><p>Firms who design, develop or run such products must provide a \"baseline\" of data protection for children, the code says.<p><p>The standards also include:<p><p>\"I believe that it will be transformational,\" Ms Denham told the Press Association.<p><p>\"I think in a generation from now when my grandchildren have children they will be astonished to think that we ever didn't protect kids online. I think it will be as ordinary as keeping children safe by putting on a seat belt.\"<p><p>Ms Denham said the move was widely supported by firms, although added that the gaming industry and some other tech companies expressed concern about their business model.<p><p>She added: \"We have an existing law, GDPR, that requires special treatment of children and I think these 15 standards will bring about greater consistency and a base level of protection in the design and implementation of games and apps and websites and social media.\"<p><p>The new standards follow concerns over young people suffering from grooming by predators, data misuse, problem gambling and access to damaging content which could affect their mental health.<p><p>Ian Russell believes his daughter Molly's use of Instagram was a factor in her suicide aged 14 in 2017.<p><p>After she died, her family found graphic posts about suicide and self-harm on her account.<p><p>The response following her death led to Instagram pledging to remove images, drawings and even cartoons showing methods of self-harm or suicide.<p><p>Welcoming the code, Mr Russell said: \"Although small steps have been taken by some social media platforms, there seems little significant investment and a lack of commitment to a meaningful change, both essential steps required to create a safer world wide web.<p><p>\"The Age Appropriate Design Code demonstrates how the technology companies might have responded effectively and immediately.\"<p><p>Andy Burrows, the NSPCC's head of child safety online policy, said the code would force social networks to \"finally take online harm seriously and they will suffer tough consequences if they fail to do so\".<p><p>He said: \"For the first time, tech firms will be legally required to assess their sites for sexual abuse risks, and can no longer serve up harmful self-harm and pro-suicide content.<p><p>\"It is now key that these measures are enforced in a proportionate and targeted way.\"<p><p>Facebook said it welcomed \"the considerations raised\", adding: \"The safety of young people is central to our decision-making, and we've spent over a decade introducing new features and tools to help everyone have a positive and safe experience on our platforms, including recent updates such as increased Direct Message privacy settings on Instagram.<p><p>\"We are actively working on developing more features in this space and are committed to working with governments and the tech industry on appropriate solutions around topics such as preventing underage use of our platforms.\"<p>",
+        "content_words_count": 608,
+        "short_description": "Social media sites, online games and streaming services used by children will have to abide by a new privacy code set by the UK's data watchdog. Elizabeth Denham, the information commissioner, said future generations will be \"astonished to think that we ever didn't protect kids online\".",
+        "main_image": "images/new-transformational-code-to-protect-children-s-privacy-online.jpg",
+        "pub_date": "2020-01-22T09:55:02.303Z",
+        "author": 3,
+        "categories": [
+            70,
+            71,
+            72
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 72,
+    "fields": {
+        "name": "UK told to 'hold fire' on April tech tax",
+        "slug": "uk-told-to-hold-fire-on-april-tech-tax",
+        "content": "<p>The UK has been told to \"hold fire\" on a new tax on big technology firms planned for April.<p><p>The OECD said that there needs to be a global agreement on technology company tax.<p><p>Without such an agreement, there would be the risk of \"a cacophony\" with countries going their own way.<p><p>The warning came as France agreed to delay a new tax on multinational technology firms after an angry response from Washington.<p><p>The organisation charged with brokering a global compromise on an issue threatening a transatlantic trade war has said the UK should hold fire on its digital sales tax.<p><p>As the Chancellor of the Exchequer arrived at the World Economic Forum in Davos, the Organisation for Economic Cooperation and Development (OECD)'s Secretary General Angel Gurria told the BBC that without a global solution to technology companies paying less than a fair share of tax, there would be a \"cacophony and a mess\" of 40 countries going their own way with \"tensions rising all over the place\".<p><p>In regards to the UK plan to levy a 2% tax on the UK revenues of search engines, social media companies and online marketplaces from April, Gurria, said that the government should \"absolutely hold fire and contribute to a multilateral solution\".<p><p>Elsewhere at the World Economic Forum, there were indications that the French Government will delay its implementation of a tech tax to until the end of the year.<p><p>Mr Gurria is hosting a meeting between the French finance minister Bruno Le Maire and US Treasury Secretary Steve Mnuchin to confirm a ceasefire that should prevent a tit for tat trade war between the US and Europe.<p><p>But Mr Mnuchin, in an interview with the Wall Street Journal, warned other countries including the UK that \"they'll find themselves faced with President Trump's tariffs. We'll be having similar conversations with them\".<p><p>However, tech companies are queuing up to say the tax system should change.<p><p>Microsoft President Brad Smith told the BBC \"it does make sense for big tech companies to pay appropriate taxes\".<p><p>And Apple chief executive Tim Cook in Ireland on Tuesday backed the OECD's effort to find a global solution.<p><p>Officials preparing US-UK trade talks have expressed concern that the US would raise its objections to a UK digital sales tax in trade negotiations.<p><p>The Treasury said: \"We've committed to introduce our Digital Services Tax from April 2020. It will be repealed once a global solution is in place\".<p>",
+        "content_words_count": 394,
+        "short_description": "The UK has been told to \"hold fire\" on a new tax on big technology firms planned for April. The OECD said that there needs to be a global agreement on technology company tax. Without such an agreement, there would be the risk of \"a cacophony\" with countries going their own way.",
+        "main_image": "images/uk-told-to-hold-fire-on-april-tech-tax.jpg",
+        "pub_date": "2020-01-22T09:55:03.901Z",
+        "author": 3,
+        "categories": [
+            73,
+            58,
+            74,
+            59
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 73,
+    "fields": {
+        "name": "Meng Wanzhou 'irreplaceable' to company, says Huawei executive",
+        "slug": "meng-wanzhou-irreplaceable-to-company-says-huawei-executive",
+        "content": "<p>Huawei's chief security officer has told the BBC the firm's chief financial officer is \"irreplaceable\".<p><p>Meng Wanzhou is fighting extradition from Canada to the US - where she is wanted on charges of fraud and sanctions violations.<p><p>But the chief security officer, Andy Purdy, told the BBC that - although Ms Meng was crucial to the firm - there was a \"succession plan\" in place.<p><p>Prior to her arrest, Ms Meng was a key figure in the Huawei's 5G efforts.<p><p>The latest iteration of high-speed wireless technology, known as 5G, will increase mobile connectivity and data speeds around the world.<p><p>The start of her hearing comes as Huawei battles US efforts to block it from participating in the development of 5G.<p><p>The US has labelled the company a security risk and banned the sale of its products. US politicians are also pushing allies including the UK, Germany and South Korea to block Huawei from their markets.<p><p>The conversation with Mr Purdy took place outside the courthouse in Vancouver, Canada, where Ms Meng's hearing is taking place.<p><p>The interview has been edited for clarity and brevity.<p><p>How do you feel Meng Wenzhou's hearing is going so far?<p><p>We believe the lawyers for Ms Meng have been able to make the very strong case that there are no grounds for extradition.<p><p>Hopefully soon, neither while Ms Meng nor Canada will be in the middle of this kind of trade war between the US and China.<p><p>Meng Wanzhou was a key player in Huawei's efforts to build a global 5G network. If she is extradited and if she is convicted - how will Huawei deal with the loss?<p><p>Ms Meng is very important to the leadership and the conduct of our business globally\u2026on one level, she's irreplaceable.<p><p>But we always have to have a succession plan, we have to have the ability to proceed if something happens. So if we have to proceed without her, it's going to really be a shame.<p><p>The substantive work on 5G continues\u2026 and we're making tremendous progress. We're about 18 to 24 months ahead of the competition [on 5G] and everybody recognises that.<p><p>In 2019 the US labelled Huawei a security risk - barring US suppliers from selling to it. How has Huawei been coping without having access to these suppliers?<p><p>We have nearly 300 American suppliers that would like to continue to sell to Huawei.<p><p>That amounts to about 40 to 50,000 American jobs directly and indirectly impacted... and it's going to be a challenge as we move forward. But our revenues for 2019 were strong - up over 18%.<p><p>This year [2020] is going to be a difficult year. But the fact is, none of our executives are going to lose their jobs.<p><p>We're going to continue to grow our business and we're going to continue to succeed.<p><p>Where does Huawei see the best opportunities for growing its presence in 5G?<p><p>The whole world is a big opportunity for 5G. Some of the most promising countries around the world are places like South Korea, obviously, China. We've just gotten approval in India to proceed.<p><p>We see some of the European countries are really moving forward quite quickly with 5G.<p><p>And in fact, the UK parliamentary committee report said the UK will be less secure if Huawei is not part of the network\u2026 because a diverse system of suppliers helps ensure that despite potential major attacks, the systems are kept up and running.<p><p>How confident is Huawei that it will give approval for it to be part of the 5G network in the UK?<p><p>Well, I wouldn't say we're confident that the UK is going to include Huawei - although a number of statements by senior government officials seem to be pointing in a positive direction.<p><p>So we have our fingers crossed, we hope and expect that they'll make a decision that's for the best for the people of the United Kingdom.<p><p>What kind of impact has all of this had on Huawei's relationship with the United Kingdom?<p><p>We've been working very closely with the four major carriers in the UK, and with the UK government.<p><p>It's a very strong relationship over many years. We are having substantive discussions - that aren't mired in politics - around transparency and cyber security.<p><p>Because this technology really matters, it has to be provided in a secure way to citizens and organisations of the country - and it's possible so that we could all take advantage of these technologies.<p><p>Ms Meng was arrested in December 2018 during a layover in Vancouver. She is accused by US authorities of lying to banks in order to avoid American sanctions on Iran. She denies the charges.<p><p>Huawei has said it has trust in Canada's judicial system \"which will prove Ms Meng's innocence\".<p><p>Her lawyers argue extradition would mean Canada was in effect upholding US sanctions on Iran.<p><p>Lawyers for Canada's attorney general have focused their arguments on the accusations of bank fraud.<p><p>The extradition hearing is expected to run 20-24 January. But a decision by the presiding judge is expected to take several more weeks.<p>",
+        "content_words_count": 817,
+        "short_description": "Huawei's chief security officer has told the BBC the firm's chief financial officer is \"irreplaceable\". Meng Wanzhou is fighting extradition from Canada to the US - where she is wanted on charges of fraud and sanctions violations.",
+        "main_image": "images/meng-wanzhou-irreplaceable-to-company-says-huawei-executive.jpg",
+        "pub_date": "2020-01-22T09:55:04.138Z",
+        "author": 3,
+        "categories": [
+            42,
+            8,
+            9,
+            58,
+            44
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 74,
+    "fields": {
+        "name": "GM's Cruise unveils its first driverless vehicle",
+        "slug": "gm-s-cruise-unveils-its-first-driverless-vehicle",
+        "content": "<p>Cruise, the self-driving car start-up, majority owned by General Motors, has unveiled its first vehicle designed to be driverless.<p><p>The electric-powered Cruise Origin was developed by Honda, which also has a stake in the company.<p><p>The launch of the vehicle, which has no steering wheel or pedals, had been delayed from last year.<p><p>Cruise said it was designed for shared ownership: \"It's not a product you buy, it's an experience you share.\"<p><p>Chief executive Dan Ammann wants drivers to move away from individual ownership to a sharing model, to help reduce emissions, accidents and congestion.<p><p>Speaking at the launch in San Francisco, he said the Cruise Origin was not a concept vehicle: \"It is self-driven. It is all electric. It is shared.\"<p><p>He did not say when the vehicle would go into production nor how many the company planned to build. It has not been approved to drive on roads, and it will require extensive testing before this is granted.<p><p>\"Our work is far from done,\" Mr Ammann said on Tuesday.<p><p>This is not Cruise's first foray into driverless cars. For years it has been testing modified Chevrolet Bolt electric cars with test drivers at the wheel.<p><p>General Motors had aimed to launch a commercial, self-driving vehicle service in San Francisco last year but delayed the plan saying the vehicles needed more testing.<p><p>The Cruise Origin faced unexpected technical challenges due to difficulties in identifying whether objects were in motion.<p><p>Honda took a 5.7% stake in Cruise for $2.75 billion (\u00a32.1bn) in 2018. As part of that deal General Motors announced plans to develop a self-driving vehicle in October 2018. Japan's SoftBank's Vision Fund has also invested in the company.<p><p>Other car makers are in a race to launch self-driving cars using the latest artificial intelligence (AI) technologies although they are being held back by safety concerns and regulations. A number of fatalities involving autonomous vehicles have led to greater government intervention and calls for more development.<p><p>German car maker Volkswagen has been struggling with the development of self-driving cars and has complained about the ''huge complexities that we are facing\".<p>",
+        "content_words_count": 338,
+        "short_description": "Cruise, the self-driving car start-up, majority owned by General Motors, has unveiled its first vehicle designed to be driverless. The electric-powered Cruise Origin was developed by Honda, which also has a stake in the company.",
+        "main_image": "images/gm-s-cruise-unveils-its-first-driverless-vehicle.jpg",
+        "pub_date": "2020-01-22T09:55:04.669Z",
+        "author": 3,
+        "categories": [
+            75,
+            76,
+            77,
+            5,
+            78
+        ]
+    }
+},
+{
+    "model": "news.article",
+    "pk": 75,
+    "fields": {
+        "name": "Glenn Greenwald: Brazil accuses journalist of cyber-crimes",
+        "slug": "glenn-greenwald-brazil-accuses-journalist-of-cyber-crimes",
+        "content": "<p>Brazilian authorities are seeking to bring charges against Glenn Greenwald, the journalist who published Edward Snowden's intelligence agency leaks.<p><p>Mr Greenwald has been accused of \"helping guiding and encouraging\" a criminal group that hacked into the phones of Brazilian officials.<p><p>The journalist had recently published stories describing private messages between public prosecutors.<p><p>At this point, federal public prosecutors have proposed the charges.<p><p>However, a judge still needs to decide whether to formally indict him.<p><p>Six other individuals have also been accused of illegal telephone interceptions and conspiracy among other related crimes.<p><p>Brazilian prosecutors allege that, during his interactions with the group, Mr Greenwald advised its members to delete messages that they had passed on to him.<p><p>Mr Greenwald has not yet publicly responded to this particular allegation.<p><p>Last year, Mr Greenwald and colleagues published a series of ten investigative reports on news site The Intercept, which detailed \"a massive trove of previously undisclosed materials\" allegedly by Brazilian prosecutors and other officials.<p><p>They quoted from messages that had been sent via Telegram, a privacy-focused app that claims to be able to keep \"messages safe from hacker attacks\".<p><p>The Folha newspaper said that those whose accounts had allegedly been breached included justice minister Sergio Moro and prosecutor Deltan Dallagnol, who is coordinating Operation Car Wash - a probe into the country's biggest ever corruption scandal.<p><p>After details of the accusations against him were published, Mr Greenwald issued a statement via The Daily beast news site. In it, he noted that Brazil's Supreme Court had ruled last year that the administration should drop its investigation into him because it violated his press freedom rights.<p><p>\"Less than two months ago, the federal police, examining all the same evidence cited by the public ministry, stated explicitly that not only have I never committed any crime but that I exercised extreme caution as a journalist never even to get close to any participation,\" he added.<p><p>\"We will not be intimidated by these tyrannical attempts to silence journalists.<p><p>\"I am working right now on new reporting and will continue to do so.\"<p><p>The New York-based Freedom of the Press Foundation has described the Brazilian attorney general office's actions as being \"beyond disturbing\" and an \"outrageous violation of press freedom\".<p><p>Edward Snowden, who was granted asylum by Russia after he fled the United States in 2013, tweeted his reaction to the news.<p><p>\"Absolute red alert: This is unbelievably naked retaliation for revealing extreme corruption at the highest levels of [Brazilian President] Bolsonaro's administration and an existential threat to investigative journalism in Brazil,\" he wrote.<p><p>Last year, President Bolsonaro commented in public that he thought Mr Greenwald could face legal repercussions in Brazil over his reporting activities.<p><p>Following news of the allegations levelled at Mr Greenwald, Eduardo Bolsonaro - the president's son and an MP - tweeted: \"Glenn Greenwald always said he loved Brazil and wanted to get to know the country in-depth. Maybe he will get to know [one of Brazil's] jails\u2026\"<p>",
+        "content_words_count": 475,
+        "short_description": "Brazilian authorities are seeking to bring charges against Glenn Greenwald, the journalist who published Edward Snowden's intelligence agency leaks. Mr Greenwald has been accused of \"helping guiding and encouraging\" a criminal group that hacked into the phones of Brazilian officials.",
+        "main_image": "images/glenn-greenwald-brazil-accuses-journalist-of-cyber-crimes.jpg",
+        "pub_date": "2020-01-22T09:55:05.489Z",
+        "author": 3,
+        "categories": [
+            79,
+            80
+        ]
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 1,
+    "fields": {
+        "name": "Sergey",
+        "email": "sergei.4e@gmail.com",
+        "website": "py4you.com",
+        "comment": "Good article!",
+        "article": 73,
+        "pub_date": "2020-01-24T11:28:25.353Z",
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 2,
+    "fields": {
+        "name": "Sergey",
+        "email": "sergei.4e@gmail.com",
+        "website": "py4you.com",
+        "comment": "Great article!",
+        "article": 73,
+        "pub_date": "2020-01-24T11:28:25.353Z",
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 3,
+    "fields": {
+        "name": "Sergey",
+        "email": "sergei.4e@gmail.com",
+        "website": "py4you.com",
+        "comment": "So-so!",
+        "article": 73,
+        "pub_date": "2020-01-24T11:28:25.353Z",
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 4,
+    "fields": {
+        "name": "Serg",
+        "email": "4e.sergei@gmail.com",
+        "website": "https://py4you.com/",
+        "comment": "The best article ever!",
+        "article": 70,
+        "pub_date": "2020-01-28T13:15:30.832Z",
+        "is_moderated": false
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 5,
+    "fields": {
+        "name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u0427\u0435\u0440\u043d\u0435\u043d\u043a\u043e",
+        "email": "4e.sergei@gmail.com",
+        "website": "",
+        "comment": "asdasdasd",
+        "article": 70,
+        "pub_date": "2020-01-28T13:16:55.962Z",
+        "is_moderated": false
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 6,
+    "fields": {
+        "name": "",
+        "email": "",
+        "website": "asdasdasd.com",
+        "comment": "asdasd",
+        "article": 70,
+        "pub_date": "2020-01-28T13:17:09.492Z",
+        "is_moderated": false
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 7,
+    "fields": {
+        "name": "",
+        "email": "",
+        "website": "",
+        "comment": "",
+        "article": 70,
+        "pub_date": "2020-01-28T13:17:15.110Z",
+        "is_moderated": false
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 8,
+    "fields": {
+        "name": "",
+        "email": "",
+        "website": "",
+        "comment": "<a href=\"https://docs.djangoproject.com/en/3.0/ref/csrf/\">asdasd</a>",
+        "article": 70,
+        "pub_date": "2020-01-28T13:17:53.491Z",
+        "is_moderated": false
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 9,
+    "fields": {
+        "name": "",
+        "email": "",
+        "website": "",
+        "comment": "<a href=\"https://docs.djangoproject.com/en/3.0/ref/csrf/\">asdasd</a>",
+        "article": 70,
+        "pub_date": "2020-01-28T13:22:01.284Z",
+        "is_moderated": false
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 10,
+    "fields": {
+        "name": "",
+        "email": "",
+        "website": "",
+        "comment": "<a href=\"https://docs.djangoproject.com/en/3.0/ref/csrf/\">asdasd</a>",
+        "article": 70,
+        "pub_date": "2020-01-28T13:22:04.763Z",
+        "is_moderated": false
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 11,
+    "fields": {
+        "name": "asdasd",
+        "email": "4e.sergei@gmail.com",
+        "website": "http://asdasd.com/",
+        "comment": "aa",
+        "article": 70,
+        "pub_date": "2020-01-28T13:52:30.820Z",
+        "is_moderated": false
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 12,
+    "fields": {
+        "name": "asdasd",
+        "email": "4e.sergei@gmail.com",
+        "website": "http://asdasd.com/",
+        "comment": "aa",
+        "article": 70,
+        "pub_date": "2020-01-28T14:00:51.661Z",
+        "is_moderated": false
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 13,
+    "fields": {
+        "name": "asdasd",
+        "email": "4e.sergei@gmail.com",
+        "website": "http://asdasd.com/",
+        "comment": "aa",
+        "article": 70,
+        "pub_date": "2020-01-28T14:02:21.694Z",
+        "is_moderated": false
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 14,
+    "fields": {
+        "name": "asdasd",
+        "email": "4e.sergei@gmail.com",
+        "website": "http://asdasd.com/",
+        "comment": "aa",
+        "article": 70,
+        "pub_date": "2020-01-28T14:04:00.091Z",
+        "is_moderated": false
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 15,
+    "fields": {
+        "name": "asdasd",
+        "email": "4e.sergei@gmail.com",
+        "website": "http://asdasd.com/",
+        "comment": "aa",
+        "article": 70,
+        "pub_date": "2020-01-28T14:04:54.055Z",
+        "is_moderated": false
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 16,
+    "fields": {
+        "name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u0427\u0435\u0440\u043d\u0435\u043d\u043a\u043e",
+        "email": "4e.sergei@gmail.com",
+        "website": "http://asdasd.com/",
+        "comment": "asdsadasdasdasd",
+        "article": 70,
+        "pub_date": "2020-01-28T14:06:59.179Z",
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 17,
+    "fields": {
+        "name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u0427\u0435\u0440\u043d\u0435\u043d\u043a\u043e",
+        "email": "4e.sergei@gmail.com",
+        "website": "https://py4you.com/",
+        "comment": "111111111111111111",
+        "article": 70,
+        "pub_date": "2020-01-29T12:30:48.055Z",
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 18,
+    "fields": {
+        "name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u0427\u0435\u0440\u043d\u0435\u043d\u043a\u043e",
+        "email": "4e.sergei@gmail.com",
+        "website": "https://py4you.com/",
+        "comment": "111111111111111111",
+        "article": 70,
+        "pub_date": "2020-01-29T12:38:05.009Z",
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 19,
+    "fields": {
+        "name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u0427\u0435\u0440\u043d\u0435\u043d\u043a\u043e",
+        "email": "4e.sergei@gmail.com",
+        "website": "https://py4you.com/",
+        "comment": "111111111111111111",
+        "article": 70,
+        "pub_date": "2020-01-29T12:38:49.779Z",
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 20,
+    "fields": {
+        "name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u0427\u0435\u0440\u043d\u0435\u043d\u043a\u043e",
+        "email": "4e.sergei@gmail.com",
+        "website": "https://py4you.com/",
+        "comment": "111111111111111111",
+        "article": 70,
+        "pub_date": "2020-01-29T12:39:02.496Z",
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 21,
+    "fields": {
+        "name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u0427\u0435\u0440\u043d\u0435\u043d\u043a\u043e",
+        "email": "4e.sergei@gmail.com",
+        "website": "https://py4you.com/",
+        "comment": "111111111111111111",
+        "article": 70,
+        "pub_date": "2020-01-29T12:39:53.972Z",
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 22,
+    "fields": {
+        "name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u0427\u0435\u0440\u043d\u0435\u043d\u043a\u043e",
+        "email": "4e.sergei@gmail.com",
+        "website": "https://py4you.com/",
+        "comment": "111111111111111111",
+        "article": 70,
+        "pub_date": "2020-01-29T12:44:02.989Z",
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 23,
+    "fields": {
+        "name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u0427\u0435\u0440\u043d\u0435\u043d\u043a\u043e",
+        "email": "4e.sergei@gmail.com",
+        "website": "http://asdasd.com/",
+        "comment": "5555555555555",
+        "article": 70,
+        "pub_date": "2020-01-29T12:44:24.956Z",
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 24,
+    "fields": {
+        "name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u0427\u0435\u0440\u043d\u0435\u043d\u043a\u043e",
+        "email": "4e.sergei@gmail.com",
+        "website": "http://asdasd.com/",
+        "comment": "asdadasd",
+        "article": 73,
+        "pub_date": "2020-01-30T16:10:35.069Z",
+        "is_moderated": false
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 25,
+    "fields": {
+        "name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u0427\u0435\u0440\u043d\u0435\u043d\u043a\u043e",
+        "email": "4e.sergei@gmail.com",
+        "website": "http://asdasd.com/",
+        "comment": "asdadasd",
+        "article": 73,
+        "pub_date": "2020-01-30T16:12:43.600Z",
+        "is_moderated": false
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 26,
+    "fields": {
+        "name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u0427\u0435\u0440\u043d\u0435\u043d\u043a\u043e",
+        "email": "4e.sergei@gmail.com",
+        "website": "https://py4you.com/",
+        "comment": "AAAAAAAAAAAAAAAAAAAAAAAAAa",
+        "article": 73,
+        "pub_date": "2020-01-30T16:24:27.128Z",
+        "is_moderated": true
+    }
+}
+]
