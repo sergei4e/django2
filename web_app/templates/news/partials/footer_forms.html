@@ -1,7 +1,8 @@
 <!-- link that opens popup -->
 
 <!-- form itself end-->
-<form id="test-form" class="white-popup-block mfp-hide">
+<form id="test-form" class="white-popup-block mfp-hide" action="{% url 'userena_signin' %}" method="post">
+    {% csrf_token %}
     <div class="popup_box ">
         <div class="popup_inner">
             <div class="logo text-center">
@@ -13,10 +14,10 @@
             <form action="#">
                 <div class="row">
                     <div class="col-xl-12 col-md-12">
-                        <input type="email" placeholder="Enter email">
+                        <input type="text" placeholder="Enter email or login" name="identification">
                     </div>
                     <div class="col-xl-12 col-md-12">
-                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Password" name="password">
                     </div>
                     <div class="col-xl-12">
                         <button type="submit" class="boxed_btn_green">Sign in</button>

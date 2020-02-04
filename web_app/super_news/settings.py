@@ -36,6 +36,8 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 # Application definition
 
 INSTALLED_APPS = [
+    # 'grappelli',
+    'django.contrib.sites',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -45,6 +47,10 @@ INSTALLED_APPS = [
     'news.apps.NewsConfig',
     'debug_toolbar',
     'django_summernote',
+    'authors',
+    'userena',
+    'guardian',
+    'easy_thumbnails',
 ]
 
 MIDDLEWARE = [
@@ -77,7 +83,38 @@ TEMPLATES = [
     },
 ]
 
+SITE_ID = 1
+
 WSGI_APPLICATION = 'super_news.wsgi.application'
+
+
+AUTHENTICATION_BACKENDS = (
+    'userena.backends.UserenaAuthenticationBackend',
+    'guardian.backends.ObjectPermissionBackend',
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'egorka.soroka.555@gmail.com'
+EMAIL_HOST_PASSWORD = 'aadaARWawe12412'
+
+
+ANONYMOUS_USER_NAME = 'AnonymousAuthor'
+
+AUTH_PROFILE_MODULE = 'authors.Author'
+
+
+USERENA_SIGNIN_REDIRECT_URL = '/accounts/%(username)s/'
+LOGIN_URL = '/accounts/signin/'
+LOGOUT_URL = '/accounts/signout/'
+
+
+USERENA_DISABLE_PROFILE_LIST = True
+
+USERENA_PROFILE_DETAIL_TEMPLATE = 'userena/profile_detail.html'
 
 
 # Database

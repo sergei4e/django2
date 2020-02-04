@@ -1,5 +1,6 @@
 from django.db import models
 from string import punctuation
+from authors.models import Author
 
 
 class Category(models.Model):
@@ -17,17 +18,6 @@ class Category(models.Model):
         verbose_name_plural = 'Categories'
 
 
-class Author(models.Model):
-    name = models.CharField(max_length=255)
-    avatar = models.ImageField(upload_to='avatars')
-    bio = models.CharField(max_length=255)
-
-    objects = models.Manager()
-
-    def __str__(self):
-        return self.name
-
-
 class Article(models.Model):
     name = models.CharField(max_length=255)
     slug = models.SlugField(max_length=255, unique=True)
@@ -37,7 +27,9 @@ class Article(models.Model):
     main_image = models.ImageField(upload_to='images')
     pub_date = models.DateTimeField(auto_now_add=True)
     categories = models.ManyToManyField(Category)
-    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    author = models.ForeignKey(Author, blank=True, null=True,
+                               on_delete=models.CASCADE,
+                               related_name='articles')
 
     objects = models.Manager()
 

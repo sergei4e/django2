@@ -800,24 +800,6 @@
     }
 },
 {
-    "model": "news.author",
-    "pk": 1,
-    "fields": {
-        "name": "Sergey Chernenko",
-        "avatar": "avatars/suit.png",
-        "bio": "Bla bla bla"
-    }
-},
-{
-    "model": "news.author",
-    "pk": 3,
-    "fields": {
-        "name": "BBC News",
-        "avatar": "avatars/DeepinScreenshot_select-area_20200121170905.png",
-        "bio": "Technology News from BBC"
-    }
-},
-{
     "model": "news.article",
     "pk": 51,
     "fields": {
@@ -828,7 +810,7 @@
         "short_description": "The price of the precious metal palladium has soared on the global commodities markets. It has jumped by more than 25% in the last two weeks alone, and almost doubled in value over the last year. At about $2,500 (\u00a31,922) an ounce of palladium is more expensive than gold, and the pressures forcing its price up are unlikely to ease anytime soon.",
         "main_image": "images/more-precious-than-gold-why-the-metal-palladium-is-soaring.jpg",
         "pub_date": "2020-01-21T16:34:57.736Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             22,
             23,
@@ -847,7 +829,7 @@
         "short_description": "Apple could be forced to abandon its Lightning connector cable if European lawmakers get their way. The cable is used to charge and sync many Apple devices, such as the iPhone. But members of the European Parliament urged the European Commission on Monday to force tech giants to adopt a single universal charging method.",
         "main_image": "images/apple-may-have-to-abandon-lightning-connector-cable.jpg",
         "pub_date": "2020-01-21T16:34:57.737Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             47,
             48,
@@ -868,7 +850,7 @@
         "short_description": "A Canadian court has begun hearing the case of a senior Huawei executive fighting extradition to the United States. Meng Wanzhou, 47, made no comment as she arrived at a Vancouver courthouse on Monday for a scheduled hearing.",
         "main_image": "images/meng-wanzhou-case-huawei-executive-s-extradition-hearings-begin.jpg",
         "pub_date": "2020-01-21T16:34:57.850Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             42,
             8,
@@ -889,7 +871,7 @@
         "short_description": "US officials may put an end to a civilian drone programme because of their concerns about the unmanned aerial vehicles that are made in China. The officials are apparently worried that the Chinese-made drones could be used to spy on people in the US.",
         "main_image": "images/us-officials-ground-drones-over-espionage-fears.jpg",
         "pub_date": "2020-01-21T16:34:57.952Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             4,
             8,
@@ -909,7 +891,7 @@
         "short_description": "Job performance details about more than 900 employees of a major office-space provider have been published online by accident after a staff review. Sales staff at Regus had been recorded showing researchers posing as clients around office space available to rent.",
         "main_image": "images/regus-sales-staff-data-exposed-after-undercover-job-review.jpg",
         "pub_date": "2020-01-21T16:34:57.967Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             36,
             37,
@@ -928,7 +910,7 @@
         "short_description": "A man has hand-built a custom controller for his disabled daughter so she is able to play video games. Rory Steel said the Nintendo Switch controller was built for nine-year-old Ava with a Microsoft device and components from eBay for about \u00a3110.",
         "main_image": "images/dad-builds-nintendo-games-controller-for-disabled-daughter.jpg",
         "pub_date": "2020-01-21T16:34:58.739Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             20,
             21,
@@ -947,7 +929,7 @@
         "short_description": "The head of Google and parent company Alphabet has called for artificial intelligence (AI) to be regulated. Writing in the Financial Times, Sundar Pichai said it was \"too important not to\" impose regulation but argued for \"a sensible approach\".",
         "main_image": "images/google-boss-sundar-pichai-calls-for-ai-regulation.jpg",
         "pub_date": "2020-01-21T16:34:58.852Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             3,
             5,
@@ -966,7 +948,7 @@
         "short_description": "The new streaming service Disney+ is to launch on 24 March in the UK, a week earlier than originally planned. Pricing has also been revealed - it will cost \u00a35.99 per month or \u00a359.99 a year, making it more expensive than the earlier DisneyLife platform.",
         "main_image": "images/disney-to-launch-a-week-earlier-than-planned-in-the-uk.jpg",
         "pub_date": "2020-01-21T16:34:58.904Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             39,
             40,
@@ -985,7 +967,7 @@
         "short_description": "A Vietnamese firm's claim to be a fresh force in 5G network equipment is being treated with scepticism by industry experts. Last week, Viettel demoed a video call saying it had used 5G network hardware and software developed in-house.",
         "main_image": "images/vietnamese-firm-viettel-s-5g-claim-raises-eyebrows-outside.jpg",
         "pub_date": "2020-01-21T16:34:59.130Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             6,
             7
@@ -1003,7 +985,7 @@
         "short_description": "A man in the US who co-founded a service to protect sites from cyber-attackers has pleaded guilty to launching distributed denial of service (DDoS) attacks. Tucker Preston is co-founder of BackConnect, a cyber-security firm that claimed to be \"the new industry standard in DDoS mitigation\".",
         "main_image": "images/ddos-man-who-sold-website-defences-pleads-guilty-to-attacks.jpg",
         "pub_date": "2020-01-21T16:34:59.528Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             19,
             9
@@ -1021,7 +1003,7 @@
         "short_description": "Top social media influencers are being propositioned daily by strangers with offers of thousands of pounds in return for sex, the Victoria Derbyshire programme has been told. One said social media had become \"a catalogue\" for men to select their next conquest.",
         "main_image": "images/influencers-being-offered-thousands-for-sex.jpg",
         "pub_date": "2020-01-21T16:34:59.788Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             28,
             32,
@@ -1042,7 +1024,7 @@
         "short_description": "Facebook has apologised for translating Chinese President Xi Jinping's name from Burmese to English into an obscenity on its platform. The translation gaffe came to light on the second day of Mr Xi's state visit to Myanmar.",
         "main_image": "images/facebook-blames-technical-issue-for-offensive-xi-jinping-translation.jpg",
         "pub_date": "2020-01-21T16:34:59.883Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             32,
             45,
@@ -1062,7 +1044,7 @@
         "short_description": "France has agreed to delay collecting a new tax on multinational technology firms until the end of 2020, a French government official has told the BBC. The digital services tax has provoked an angry response from Washington.",
         "main_image": "images/france-agrees-to-delay-new-tax-on-tech-giants.jpg",
         "pub_date": "2020-01-21T16:34:59.967Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             57,
             9,
@@ -1082,7 +1064,7 @@
         "short_description": "Traffic sensors are being set up in homes in five cities across Europe in a bid to learn more about traffic flow. English academics are involved in sending out 1,500 sensors to be placed in homes in Madrid, Dublin, Cardiff, Ljubljana and Leuven.",
         "main_image": "images/europe-wide-traffic-survey-to-recruit-citizen-scientists.jpg",
         "pub_date": "2020-01-21T16:35:00.145Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             22,
             23,
@@ -1106,7 +1088,7 @@
         "short_description": "Facebook will create 1,000 new roles in London over the course of this year, including adding to its team tackling harmful online content. More than half of the new jobs will be technology-focused, with roles in software engineering, product design and data science, the company said.",
         "main_image": "images/facebook-creates-1000-new-uk-jobs.jpg",
         "pub_date": "2020-01-21T16:35:00.260Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             32,
             56
@@ -1124,7 +1106,7 @@
         "short_description": "In 1985 the US pulled the plug on a computer-controlled anti-aircraft tank after a series of debacles in which its electronic brain locked guns onto a stand packed with top generals reviewing the device. Mercifully it didn't fire, but did subsequently attack a portable toilet instead of a target drone.",
         "main_image": "images/robot-tanks-on-patrol-but-not-allowed-to-shoot.jpg",
         "pub_date": "2020-01-21T16:35:00.318Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             52,
             54,
@@ -1145,7 +1127,7 @@
         "short_description": "\"It's on another scale from anything I've seen before,\" says Lorna Carter who recently started working at a new Rolls-Royce research and development facility near Bristol. She works with giant robots which lay thousands of strips of carbon fibre tape to form a cylinder some 3.7m (almost 12ft) in diameter.",
         "main_image": "images/giant-jet-engines-aim-to-make-our-flying-greener.jpg",
         "pub_date": "2020-01-21T16:35:00.621Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             12,
             13,
@@ -1168,7 +1150,7 @@
         "short_description": "Saudi Arabia has denied that its crown prince was responsible for hacking Amazon boss Jeff Bezos' phone. A message from a phone number used by the prince has been implicated in the data breach, according to reports.",
         "main_image": "images/jeff-bezos-hack-saudi-arabia-calls-claim-absurd.jpg",
         "pub_date": "2020-01-22T09:55:00.935Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             60,
             61,
@@ -1190,7 +1172,7 @@
         "short_description": "\"I was working non-stop. The company was almost like a love affair. I call it 'my greatest love affair', because it felt so, so important. \"My identity was so wrapped up with work. If I wasn't doing that job, I didn't really know who I was.\"",
         "main_image": "images/burnout-sick-and-tired-of-feeling-sick-and-tired.jpg",
         "pub_date": "2020-01-22T09:55:01.405Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             66,
             56
@@ -1208,7 +1190,7 @@
         "short_description": "Vodafone has become the latest company to leave Facebook's digital currency project, Libra. The Libra Association has seen an exodus of backers including Paypal and Mastercard amid regulatory scrutiny.",
         "main_image": "images/vodafone-quits-facebook-s-libra-currency.jpg",
         "pub_date": "2020-01-22T09:55:01.911Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             67,
             32,
@@ -1229,7 +1211,7 @@
         "short_description": "Social media sites, online games and streaming services used by children will have to abide by a new privacy code set by the UK's data watchdog. Elizabeth Denham, the information commissioner, said future generations will be \"astonished to think that we ever didn't protect kids online\".",
         "main_image": "images/new-transformational-code-to-protect-children-s-privacy-online.jpg",
         "pub_date": "2020-01-22T09:55:02.303Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             70,
             71,
@@ -1248,7 +1230,7 @@
         "short_description": "The UK has been told to \"hold fire\" on a new tax on big technology firms planned for April. The OECD said that there needs to be a global agreement on technology company tax. Without such an agreement, there would be the risk of \"a cacophony\" with countries going their own way.",
         "main_image": "images/uk-told-to-hold-fire-on-april-tech-tax.jpg",
         "pub_date": "2020-01-22T09:55:03.901Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             73,
             58,
@@ -1268,7 +1250,7 @@
         "short_description": "Huawei's chief security officer has told the BBC the firm's chief financial officer is \"irreplaceable\". Meng Wanzhou is fighting extradition from Canada to the US - where she is wanted on charges of fraud and sanctions violations.",
         "main_image": "images/meng-wanzhou-irreplaceable-to-company-says-huawei-executive.jpg",
         "pub_date": "2020-01-22T09:55:04.138Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             42,
             8,
@@ -1289,7 +1271,7 @@
         "short_description": "Cruise, the self-driving car start-up, majority owned by General Motors, has unveiled its first vehicle designed to be driverless. The electric-powered Cruise Origin was developed by Honda, which also has a stake in the company.",
         "main_image": "images/gm-s-cruise-unveils-its-first-driverless-vehicle.jpg",
         "pub_date": "2020-01-22T09:55:04.669Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             75,
             76,
@@ -1310,7 +1292,7 @@
         "short_description": "Brazilian authorities are seeking to bring charges against Glenn Greenwald, the journalist who published Edward Snowden's intelligence agency leaks. Mr Greenwald has been accused of \"helping guiding and encouraging\" a criminal group that hacked into the phones of Brazilian officials.",
         "main_image": "images/glenn-greenwald-brazil-accuses-journalist-of-cyber-crimes.jpg",
         "pub_date": "2020-01-22T09:55:05.489Z",
-        "author": 3,
+        "author": 1,
         "categories": [
             79,
             80

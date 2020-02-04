@@ -6,7 +6,7 @@ from news.crawlers import bbc_crawler
 
 from django_summernote.admin import SummernoteModelAdmin
 
-from .models import Article, Author, Category, Newsletter, Comment
+from .models import Article, Category, Newsletter, Comment
 
 
 def count_words(modeladmin, request, queryset):
@@ -65,26 +65,7 @@ class CategoryAdmin(admin.ModelAdmin):
         return object.article_set.all().count()
 
 
-class AuthorArticleInLine(admin.TabularInline):
-    model = Article
-    exclude = ('content', 'short_description')
-
-
-class AuthorAdmin(admin.ModelAdmin):
-    list_display = ('name', 'ava')
-    search_fields = ('name', )
-    inlines = (AuthorArticleInLine, )
-    actions = (get_fresh_news, )
-
-    def ava(self, object):
-        return format_html(
-            '<img src="{}" style="max-width: 70px" />',
-            object.avatar.url
-        )
-
-
 admin.site.register(Article, ArticleAdmin)
-admin.site.register(Author, AuthorAdmin)
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Newsletter)
 admin.site.register(Comment)

@@ -34,3 +34,4 @@ websockets==8.1
 wincertstore==0.2
 psycopg2-binary
 gunicorn
+django-userena-ce
