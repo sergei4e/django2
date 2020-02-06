@@ -14,9 +14,9 @@
                         <p>The Best Domain & Hosting Provider In The Area</p>
                         <h3>Articles Database</h3>
                         <div class="find_dowmain">
-                            <form action="#" class="find_dowmain_form">
-                                <input type="text" placeholder="Find your domain">
-                                <button type="submit">search</button>
+                            <form action="{% url 'search' %}" method="get" class="find_dowmain_form">
+                                <input type="text" placeholder="Find your articles" name="q">
+                                <button type="submit">Search</button>
                             </form>
                         </div>
                     </div>
