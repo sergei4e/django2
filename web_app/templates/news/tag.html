@@ -1,0 +1,64 @@
+{% extends 'news/base.html' %}
+
+
+{% block content %}
+
+<!-- bradcam_area_start -->
+<div class="bradcam_area breadcam_bg overlay2">
+    <h1 class="like_h3">{{object.name}}</h1>
+</div>
+<!-- bradcam_area_end -->
+
+<!--================Blog Area =================-->
+<section class="blog_area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+                <div class="blog_left_sidebar">
+
+                    {% for article in page_obj %}
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <img class="card-img rounded-0" src="{{ article.main_image.url }}" alt="">
+                            <a href="#" class="blog_item_date">
+                                <h3>15</h3>
+                                <p>Jan</p>
+                            </a>
+                        </div>
+
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="{% url 'article' article.slug %}">
+                                <h2>{{ article.name }}</h2>
+                            </a>
+
+                            <p>{{ article.short_description }}</p>
+
+                            <ul class="blog-info-link">
+
+                                <li><i class="fa fa-user"></i>
+                                    <a href="{% url 'category' article.categories.all.0.slug %}">
+                                        {{article.categories.all.0.name|title}}</a>
+                                </li>
+
+                                <li><a href="#"><i class="fa fa-comments"></i>03 Comments</a></li>
+                            </ul>
+                        </div>
+                    </article>
+                    {% endfor %}
+
+                    {% include 'news/partials/pagination.html' %}
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog_right_sidebar">
+                    {% include 'news/partials/search_aside.html' %}
+                    {% include 'news/partials/tags_cloud.html' %}
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================Blog Area =================-->
+{% endblock content %}

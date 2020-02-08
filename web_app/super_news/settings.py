@@ -27,7 +27,9 @@ DEBUG = os.getenv('DEBUG', False)
 
 ALLOWED_HOSTS = ['*']
 
-INTERNAL_IPS = ['127.0.0.1']
+if DEBUG:
+    # `debug` is only True in templates if the vistor IP is in INTERNAL_IPS.
+    INTERNAL_IPS = type(str('c'), (), {'__contains__': lambda *a: True})()
 
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
@@ -44,16 +46,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sitemaps',
+    'django_elasticsearch_dsl',
     'news.apps.NewsConfig',
-    'debug_toolbar',
     'django_summernote',
     'authors',
     'userena',
     'guardian',
     'easy_thumbnails',
+    'debug_toolbar',
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -61,7 +66,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'super_news.urls'
@@ -77,7 +81,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'news.context_processor.menu_categories'
+                'news.context_processor.menu_categories',
+                'news.context_processor.tags_linking'
             ],
         },
     },
@@ -129,6 +134,13 @@ DATABASES = {
         'HOST': 'db',
         'PORT': '5432',
     }
+}
+
+
+ELASTICSEARCH_DSL = {
+    'default': {
+        'hosts': 'elasticsearch:9200'
+    },
 }
 
 

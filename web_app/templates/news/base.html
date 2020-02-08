@@ -6,9 +6,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Hostza</title>
-    <meta name="description" content="">
+    <title>{% block title %}Hostza{% endblock %}</title>
+    <meta name="description" content="{% block description %}{% endblock %}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="canonical" href="{% block canonical %}{% endblock %}">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <link rel="shortcut icon" type="image/x-icon" href="{% static 'img/favicon.png' %}">
@@ -26,6 +28,7 @@
     <link rel="stylesheet" href="{% static 'css/animate.css' %}">
     <link rel="stylesheet" href="{% static 'css/slicknav.css' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 

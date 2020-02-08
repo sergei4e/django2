@@ -5,7 +5,7 @@
 
 <!-- bradcam_area_start -->
 <div class="bradcam_area breadcam_bg overlay2">
-    {% if search_articles %}
+    {% if page_obj %}
     <h3>Search Results for "{{ query }}"</h3>
     {% else %}
     <h3>No search results found</h3>
@@ -123,35 +123,7 @@
                     </aside>
 
 
-                    <aside class="single_sidebar_widget tag_cloud_widget">
-                        <h4 class="widget_title">Tag Clouds</h4>
-                        <ul class="list">
-                            <li>
-                                <a href="#">project</a>
-                            </li>
-                            <li>
-                                <a href="#">love</a>
-                            </li>
-                            <li>
-                                <a href="#">technology</a>
-                            </li>
-                            <li>
-                                <a href="#">travel</a>
-                            </li>
-                            <li>
-                                <a href="#">restaurant</a>
-                            </li>
-                            <li>
-                                <a href="#">life style</a>
-                            </li>
-                            <li>
-                                <a href="#">design</a>
-                            </li>
-                            <li>
-                                <a href="#">illustration</a>
-                            </li>
-                        </ul>
-                    </aside>
+                    {% include 'news/partials/tags_cloud.html' %}
 
                 </div>
             </div>

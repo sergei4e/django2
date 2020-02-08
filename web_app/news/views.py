@@ -1,15 +1,14 @@
+from slugify import slugify
 from django.core.exceptions import ObjectDoesNotExist
 from django.views.generic.detail import SingleObjectMixin
 from django.views.generic.edit import FormMixin
-from django.contrib.postgres.search import SearchQuery, SearchRank, SearchVector
 
 from django.views.generic import TemplateView, ListView, DetailView
 from django.urls import reverse
-from django.shortcuts import redirect
-from django.core.paginator import Paginator
 
-from .models import Article, Category, Comment
+from .models import Article, Category, Comment, Tag
 from .forms import CommentForm
+from .documents import ArticleDocument
 
 
 class IndexView(TemplateView):
@@ -96,53 +95,46 @@ class AboutView(TemplateView):
     template_name = 'news/about.html'
 
 
-class SearchView(TemplateView):
+class SearchView(ListView):
     template_name = 'news/search.html'
-    per_page = 3
+    paginate_by = 3
 
     def get(self, request, *args, **kwargs):
         self.query_text = self.request.GET.get('q')
-        self.current_page = self.request.GET.get('page')
+        try:
+            Tag.objects.create(
+                name=self.query_text,
+                slug=slugify(self.query_text)
+            )
+        except Exception:
+            pass
+        return super().get(request, *args, **kwargs)
 
-        if not self.current_page:
-            self.current_page = 1
-        else:
-            self.current_page = int(self.current_page)
-
-        self.vector = SearchVector('name', weight='A') + \
-                 SearchVector('content', weight='B')
-
-        self.query = SearchQuery(self.query_text)
-
-        self.results = Article.objects.annotate(
-            rank=SearchRank(self.vector, self.query)
-        ).filter(rank__gte=0.2).order_by('-rank')
-
-        self.results_count = self.results.count()
-        max_page = self.results_count // self.per_page
-
-        if self.current_page > max_page:
-            url = reverse('search')
-            url += f'?q={self.query_text}&page={max_page}'
-            return redirect(url)
-
-        context = self.get_context_data(**kwargs)
-
-        return self.render_to_response(context)
+    def get_queryset(self):
+        return ArticleDocument.search().query(
+            "match", content=self.query_text).to_queryset()
 
     def get_context_data(self, **kwargs):
-
-        context = {
-            'query': self.query_text,
-            'search_articles': self.results,
-            'current_page': self.current_page
-        }
-
-        paginator = Paginator(self.results, self.per_page)
-        context['paginator'] = paginator
-        context['page_obj'] = paginator.page(self.current_page)
-
+        context = super().get_context_data()
+        context['query'] = self.query_text
         return context
+
+
+class TagListView(ListView, SingleObjectMixin):
+    template_name = 'news/tag.html'
+    model = Tag
+    ordering = '-pub_date'
+    paginate_by = 3
+    slug_url_kwarg = 'slug'
+
+    def get(self, request, *args, **kwargs):
+        self.object = self.get_object(queryset=Tag.objects.all())
+        return super().get(request, *args, **kwargs)
+
+    def get_queryset(self):
+        self.queryset = ArticleDocument.search().query(
+            "match", content=self.object.name).to_queryset()
+        return super().get_queryset()
 
 
 class RobotsView(TemplateView):

@@ -35,3 +35,4 @@ wincertstore==0.2
 psycopg2-binary
 gunicorn
 django-userena-ce
+django-elasticsearch-dsl
