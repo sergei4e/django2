@@ -16,8 +16,7 @@ def get_authors(a_id=1):
     return Author.objects.get(id=a_id)
 
 
-def crawl_one(args):
-    url, task = args
+def crawl_one(url):
     author = get_authors()
     try:
         with HTMLSession() as session:
@@ -76,15 +75,11 @@ def crawl_one(args):
             cat, created = Category.objects.get_or_create(**category)
             article.categories.add(cat)
 
-        if task:
-            task.status = f'[created] {article}'
-            task.save()
-
     except Exception as e:
         print(f'[{url}]', e, type(e), sys.exc_info()[-1].tb_lineno)
 
 
-def get_fresh_news(task):
+def get_fresh_news():
     base_url = 'https://www.bbc.com/news/business'
 
     with HTMLSession() as session:
@@ -97,19 +92,15 @@ def get_fresh_news(task):
     for link in links:
         try:
             if link.split('-')[-1].isdigit():
-                fresh_news.append((link, task))
+                fresh_news.append(link)
         except:
             pass
-
-    if task:
-        task.status = f'found {len(fresh_news)} fresh news'
-        task.save()
 
     return fresh_news
 
 
 def run(task=None):
-    fresh_news = get_fresh_news(task)
+    fresh_news = get_fresh_news()
     with ThreadPoolExecutor(max_workers=10) as executor:
         executor.map(crawl_one, fresh_news)
 

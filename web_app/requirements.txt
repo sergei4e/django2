@@ -37,3 +37,8 @@ gunicorn
 django-userena-ce
 django-elasticsearch-dsl
 django-cache-memoize
+celery
+redis
+django-celery-results
+django-celery-beat
+django-timezone-field==4.0
