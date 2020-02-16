@@ -3,6 +3,9 @@ from django.core.exceptions import ObjectDoesNotExist
 from django.views.generic.detail import SingleObjectMixin
 from django.views.generic.edit import FormMixin
 
+from django.utils.decorators import method_decorator
+from django.views.decorators.csrf import csrf_protect
+
 from django.views.generic import TemplateView, ListView, DetailView
 from django.urls import reverse
 
@@ -48,6 +51,7 @@ class CategoryListView(ListView, SingleObjectMixin):
         return super().get_queryset()
 
 
+@method_decorator(csrf_protect, name='dispatch')
 class PageDetailView(FormMixin, DetailView):
     template_name = 'news/page.html'
     model = Article

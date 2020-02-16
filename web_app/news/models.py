@@ -1,3 +1,4 @@
+import os
 from django.db import models
 from string import punctuation
 from authors.models import Author
@@ -61,6 +62,15 @@ class Article(SEONews):
 
     def get_absolute_url(self):
         return reverse('article', args=(self.slug, ))
+
+    def save(self, *args, **kwargs):
+        new_image = self.main_image
+        if self.pk:
+            item = self.__class__.objects.get(pk=self.pk)
+            old_image = item.main_image
+            if new_image != old_image:
+                os.remove(old_image.path)
+        return super().save(*args, **kwargs)
 
 
 class Comment(models.Model):

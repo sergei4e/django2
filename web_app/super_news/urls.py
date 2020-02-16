@@ -17,6 +17,7 @@ import debug_toolbar
 
 from django.contrib import admin
 from django.urls import path, include
+from django.views.decorators.cache import cache_page
 
 from django.conf import settings
 from django.conf.urls.static import static
@@ -26,20 +27,20 @@ from news import views, sitemaps
 
 
 urlpatterns = [
-    path('', views.IndexView.as_view(), name='homepage'),
+    path('', cache_page(60*60)(views.IndexView.as_view()), name='homepage'),
 
     path('blog/', views.BlogListView.as_view(), name='blog'),
 
-    path('post/<post_slug>/', views.PageDetailView.as_view(), name='article'),
-    path('tag/<slug>/', views.TagListView.as_view(), name='tag'),
+    path('post/<post_slug>/', cache_page(60*60)(views.PageDetailView.as_view()), name='article'),
+    path('tag/<slug>/', cache_page(60*60)(views.TagListView.as_view()), name='tag'),
 
     path('about/', views.AboutView.as_view(), name='about'),
     path('contact/', views.ContactView.as_view(), name='contact'),
     path('search/', views.SearchView.as_view(), name='search'),
 
     path('robots.txt', views.RobotsView.as_view()),
-    path('sitemap.xml', index, {'sitemaps': sitemaps.sitemaps}),
-    path('sitemap-<section>.xml', sitemap, {'sitemaps': sitemaps.sitemaps},
+    path('sitemap.xml', cache_page(86400)(index), {'sitemaps': sitemaps.sitemaps}),
+    path('sitemap-<section>.xml', cache_page(86400)(sitemap), {'sitemaps': sitemaps.sitemaps},
          name='django.contrib.sitemaps.views.sitemap'),
 
     path('summernote/', include('django_summernote.urls')),
@@ -50,12 +51,10 @@ urlpatterns = [
     # grappelli URLS
     path('grappelli/', include('grappelli.urls')),
 
-    path('category/<cat_slug>/', views.CategoryListView.as_view(), name='category'),
+    path('category/<cat_slug>/', cache_page(60*60)(
+        views.CategoryListView.as_view()), name='category'),
 
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-
-
-print(settings)
 
 
 if settings.DEBUG:

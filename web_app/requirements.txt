@@ -36,3 +36,4 @@ psycopg2-binary
 gunicorn
 django-userena-ce
 django-elasticsearch-dsl
+django-cache-memoize

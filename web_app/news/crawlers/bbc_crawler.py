@@ -4,24 +4,22 @@ from datetime import datetime
 from slugify import slugify
 from requests_html import HTMLSession
 from django.utils.timezone import make_aware
+from cache_memoize import cache_memoize
 
 from concurrent.futures import ThreadPoolExecutor
 
 from news.models import Article, Author, Category
 
 
-AUTHOR = None
+@cache_memoize(3600)
+def get_authors(a_id=1):
+    return Author.objects.get(id=a_id)
 
 
-def crawl_one(url):
-    global AUTHOR
-
-    if not AUTHOR:
-        # BBC Author in db has id=3
-        AUTHOR = Author.objects.get(id=3)
-
+def crawl_one(args):
+    url, task = args
+    author = get_authors()
     try:
-
         with HTMLSession() as session:
             response = session.get(url)
 
@@ -70,26 +68,24 @@ def crawl_one(url):
             'short_description': short_description.strip(),
             'main_image': img_path,
             'pub_date': make_aware(pub_date),
-            'author': AUTHOR
+            'author': author
         }
 
-        # article = Article(**article)
-        # articles.append(article)
-
         article, created = Article.objects.get_or_create(**article)
-
         for category in categories:
             cat, created = Category.objects.get_or_create(**category)
             article.categories.add(cat)
 
-        print(article)
+        if task:
+            task.status = f'[created] {article}'
+            task.save()
 
     except Exception as e:
         print(f'[{url}]', e, type(e), sys.exc_info()[-1].tb_lineno)
 
 
-def get_fresh_news():
-    base_url = 'https://www.bbc.com/news/technology'
+def get_fresh_news(task):
+    base_url = 'https://www.bbc.com/news/business'
 
     with HTMLSession() as session:
         response = session.get(base_url)
@@ -101,19 +97,26 @@ def get_fresh_news():
     for link in links:
         try:
             if link.split('-')[-1].isdigit():
-                fresh_news.append(link)
+                fresh_news.append((link, task))
         except:
             pass
+
+    if task:
+        task.status = f'found {len(fresh_news)} fresh news'
+        task.save()
 
     return fresh_news
 
 
-def run():
-    # Article.objects.all().delete()
-    fresh_news = get_fresh_news()
+def run(task=None):
+    fresh_news = get_fresh_news(task)
     with ThreadPoolExecutor(max_workers=10) as executor:
         executor.map(crawl_one, fresh_news)
-    # Article.objects.bulk_create(articles, ignore_conflicts=True)
+
+    if task:
+        task.status = 'successfully compleated'
+        task.done = True
+        task.save()
 
 
 if __name__ == '__main__':

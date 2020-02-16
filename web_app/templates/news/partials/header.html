@@ -1,3 +1,4 @@
+{% load cache %}
 {% load static %}
 
 <!-- header-start -->
@@ -20,11 +21,13 @@
                                     <li><a href="{% url 'homepage' %}">home</a></li>
                                     <li><a class="active" href="{% url 'blog' %}">
                                         Blog <i class="ti-angle-down"></i></a>
+                                        {% cache 500 menu %}
                                         <ul class="submenu">
                                             {% for cat in menu_categories %}
                                             <li><a href="{% url 'category' cat.slug %}">{{ cat.name }}</a></li>
                                             {% endfor %}
                                         </ul>
+                                        {% endcache %}
                                     </li>
                                     <li><a href="{% url 'about' %}">About</a></li>
                                     <li><a href="{% url 'contact' %}">Contact</a></li>
